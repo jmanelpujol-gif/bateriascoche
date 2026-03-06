@@ -1,116 +1,186 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
+
 <meta charset="UTF-8">
 <title>Baterías de coche | Guía completa</title>
-<meta name="description" content="Información sobre baterías de coche, tipos, duración y consejos para elegir la mejor batería.">
+
+<meta name="description" content="Guía completa sobre baterías de coche, tipos, duración y precios">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 <style>
 
 body{
-font-family:Arial, sans-serif;
+font-family:'Poppins', sans-serif;
 margin:0;
 background:#f4f6f8;
-line-height:1.6;
+color:#333;
 }
 
 header{
-background:url("https://images.unsplash.com/photo-1503376780353-7e6692767b70") center/cover;
+background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+url("https://images.unsplash.com/photo-1503376780353-7e6692767b70");
+background-size:cover;
+background-position:center;
 color:white;
-padding:80px 20px;
+padding:100px 20px;
 text-align:center;
 }
 
+header h1{
+font-size:42px;
+margin-bottom:10px;
+}
+
 nav{
-background:#222;
-padding:10px;
+background:#1c1c1c;
+padding:12px;
 text-align:center;
 }
 
 nav a{
 color:white;
-margin:0 15px;
+margin:0 20px;
 text-decoration:none;
-font-weight:bold;
+font-weight:500;
+}
+
+nav a:hover{
+color:#ffcc00;
 }
 
 .container{
-max-width:900px;
+max-width:1000px;
 margin:auto;
-padding:20px;
+padding:30px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
 }
 
 .card{
 background:white;
-padding:20px;
-margin:20px 0;
-border-radius:8px;
-box-shadow:0 2px 8px rgba(0,0,0,0.1);
+padding:25px;
+border-radius:10px;
+box-shadow:0 3px 12px rgba(0,0,0,0.1);
 }
 
-.cta{
-background:#e9f2ff;
-padding:20px;
-border-radius:8px;
+.card i{
+font-size:28px;
+color:#ff9900;
+margin-bottom:10px;
+}
+
+.hero-img{
+margin-top:-50px;
 text-align:center;
 }
 
-img{
-max-width:100%;
-border-radius:8px;
+.hero-img img{
+width:90%;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+.cta{
+background:#eaf2ff;
+padding:25px;
+margin-top:30px;
+border-radius:10px;
+text-align:center;
 }
 
 footer{
 text-align:center;
-padding:20px;
+padding:25px;
 color:#777;
 }
 
 </style>
+
 </head>
 
 <body>
 
 <header>
+
 <h1>Baterías de coche</h1>
-<p>Guía básica sobre tipos, duración y precios</p>
+<p>Todo lo que necesitas saber sobre tipos, duración y precios</p>
+
 </header>
 
 <nav>
+
 <a href="index.html">Inicio</a>
 <a href="tipos-baterias.html">Tipos de baterías</a>
 <a href="cuando-cambiar-bateria.html">Cuándo cambiarla</a>
+
 </nav>
+
+<div class="hero-img">
+
+<img src="https://images.unsplash.com/photo-1600661653561-629509216228">
+
+</div>
 
 <div class="container">
 
-<div class="card">
-
-<img src="https://images.unsplash.com/photo-1600661653561-629509216228" alt="bateria de coche">
-
-<h2>¿Qué es la batería de un coche?</h2>
+<h2>Información sobre baterías de coche</h2>
 
 <p>
-La batería del coche es el componente encargado de suministrar energía para arrancar el motor
-y alimentar los sistemas eléctricos del vehículo.
+La batería es el componente encargado de suministrar energía para arrancar el vehículo
+y alimentar todos los sistemas eléctricos del coche.
 </p>
 
+<div class="grid">
+
+<div class="card">
+
+<i class="fa-solid fa-car-battery"></i>
+
+<h3>Tipos de baterías</h3>
+
 <p>
-Una batería en buen estado garantiza arranques fiables y un funcionamiento correcto
-de todos los dispositivos electrónicos del automóvil.
+Existen diferentes tecnologías como plomo ácido, AGM o EFB utilizadas
+según las necesidades del vehículo.
 </p>
 
 </div>
 
 <div class="card">
 
-<h2>Precio de una batería</h2>
+<i class="fa-solid fa-euro-sign"></i>
+
+<h3>Precio</h3>
 
 <p>
-El precio de una batería de coche suele variar entre 60€ y 250€, dependiendo de la capacidad,
-la tecnología utilizada y la marca del fabricante.
+El precio de una batería suele oscilar entre 60€ y 250€
+dependiendo de la capacidad y la tecnología.
 </p>
+
+</div>
+
+<div class="card">
+
+<i class="fa-solid fa-clock"></i>
+
+<h3>Duración</h3>
+
+<p>
+La vida útil de una batería suele estar entre 3 y 5 años
+según el uso y el clima.
+</p>
+
+</div>
 
 </div>
 
@@ -119,12 +189,12 @@ la tecnología utilizada y la marca del fabricante.
 <h3>Dominio disponible</h3>
 
 <p>
-Este dominio puede ser ideal para proyectos de automoción,
-ecommerce de recambios o comparadores de baterías.
+Este dominio puede ser ideal para ecommerce de recambios,
+comparadores de baterías o proyectos de automoción.
 </p>
 
 <p>
-Contacto: contacto@tudominio.com
+Contacto: admin@bateriascoche.net
 </p>
 
 </div>
@@ -132,8 +202,11 @@ Contacto: contacto@tudominio.com
 </div>
 
 <footer>
+
 bateriascoche.net
+
 </footer>
 
 </body>
+
 </html>
