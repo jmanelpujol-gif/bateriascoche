@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://cambiarbaterias.es/sitemap.xml
+
+Sitemap: https://bateriascoche.net/sitemap.xml
