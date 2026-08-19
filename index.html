@@ -1,61 +1,105 @@
+```html
 <!DOCTYPE html>
 <html lang="es">
 
 <head>
+
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZN8VD9P4CD"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZN8VD9P4CD"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-  gtag('config', 'G-ZN8VD9P4CD');
-</script>
-<link rel="icon" href="bateriascoche_favicon.png" type="image/png">
-<meta charset="UTF-8">
-<title>Baterías de coche: tipos, duración y cómo elegirlas</title>
+    gtag('config', 'G-ZN8VD9P4CD');
+  </script>
 
-<meta name="description" content="Todo lo que necesitas saber sobre las baterías de coche: tipos, duración, precios, síntomas de desgaste y consejos para elegir la batería adecuada.">
+  <meta charset="UTF-8">
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Baterías de coche: tipos, duración y cómo elegirlas | BateriasCoche.net</title>
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <meta name="description" content="Guía sobre baterías de coche: tipos, duración, síntomas de desgaste, precios y consejos para elegir la batería adecuada para tu vehículo.">
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="robots" content="index, follow">
+
+  <link rel="canonical" href="https://bateriascoche.net/">
+
+  <link rel="icon" href="bateriascoche_favicon.png" type="image/png">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Baterías de coche: tipos, duración y cómo elegirlas">
+  <meta property="og:description" content="Guía sobre baterías de coche: tipos, duración, síntomas de desgaste, precios y consejos para elegir la batería adecuada.">
+  <meta property="og:url" content="https://bateriascoche.net/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="BateriasCoche.net">
+
+  <!-- Fuentes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Datos estructurados -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "BateriasCoche.net",
+    "url": "https://bateriascoche.net/"
+  }
+  </script>
 
 <style>
 
+*{
+box-sizing:border-box;
+}
+
 body{
-font-family:'Poppins', sans-serif;
+font-family:'Poppins',sans-serif;
 margin:0;
 background:#f4f6f8;
 color:#333;
+line-height:1.7;
 }
 
 header{
-background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+background:
+linear-gradient(rgba(0,0,0,0.62),rgba(0,0,0,0.62)),
 url("https://images.unsplash.com/photo-1503376780353-7e6692767b70");
 background-size:cover;
 background-position:center;
 color:white;
-padding:100px 20px;
+padding:90px 20px;
 text-align:center;
 }
 
 header h1{
 font-size:42px;
-margin-bottom:10px;
+line-height:1.2;
+margin:0 0 15px;
+}
+
+header p{
+font-size:19px;
+max-width:750px;
+margin:0 auto;
 }
 
 nav{
 background:#1c1c1c;
-padding:12px;
+padding:14px 10px;
 text-align:center;
 }
 
 nav a{
 color:white;
-margin:0 20px;
+margin:0 14px;
 text-decoration:none;
 font-weight:500;
 }
@@ -65,22 +109,64 @@ color:#ffcc00;
 }
 
 .container{
-max-width:1000px;
+max-width:1050px;
 margin:auto;
-padding:30px;
+padding:35px 25px;
+}
+
+.hero-img{
+margin:-45px auto 25px;
+text-align:center;
+max-width:1000px;
+padding:0 20px;
+}
+
+.hero-img img{
+width:100%;
+max-width:900px;
+height:auto;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.2);
+display:block;
+margin:auto;
+}
+
+.intro{
+font-size:18px;
+margin-bottom:35px;
+}
+
+h2{
+font-size:30px;
+margin-top:45px;
+margin-bottom:15px;
+color:#222;
+line-height:1.3;
+}
+
+h3{
+color:#222;
+margin-top:10px;
+line-height:1.4;
 }
 
 .grid{
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
 gap:20px;
+margin-top:25px;
 }
 
 .card{
 background:white;
 padding:25px;
 border-radius:10px;
-box-shadow:0 3px 12px rgba(0,0,0,0.1);
+box-shadow:0 3px 12px rgba(0,0,0,0.08);
+transition:transform 0.2s ease;
+}
+
+.card:hover{
+transform:translateY(-3px);
 }
 
 .card i{
@@ -89,29 +175,98 @@ color:#ff9900;
 margin-bottom:10px;
 }
 
-.hero-img{
-margin-top:-50px;
-text-align:center;
+.card p{
+margin-bottom:0;
 }
 
-.hero-img img{
-width:90%;
-border-radius:10px;
-box-shadow:0 5px 15px rgba(0,0,0,0.2);
+.card-link{
+display:block;
+color:inherit;
+text-decoration:none;
+height:100%;
 }
 
-.cta{
-background:#eaf2ff;
-padding:25px;
-margin-top:30px;
+.card-link:hover h3{
+color:#d98200;
+}
+
+.info-box{
+background:white;
+padding:28px;
 border-radius:10px;
-text-align:center;
+box-shadow:0 3px 12px rgba(0,0,0,0.08);
+margin-top:25px;
+}
+
+.info-box ul{
+padding-left:25px;
+}
+
+.info-box li{
+margin-bottom:8px;
+}
+
+.text-link{
+color:#d98200;
+font-weight:600;
+text-decoration:none;
+}
+
+.text-link:hover{
+text-decoration:underline;
+}
+
+.faq{
+background:white;
+padding:22px 25px;
+margin-top:15px;
+border-radius:8px;
+box-shadow:0 2px 8px rgba(0,0,0,0.06);
+}
+
+.faq h3{
+margin-top:0;
+margin-bottom:8px;
 }
 
 footer{
 text-align:center;
-padding:25px;
+padding:30px 20px;
 color:#777;
+font-size:14px;
+}
+
+footer a{
+color:#777;
+}
+
+@media (max-width:700px){
+
+header{
+padding:70px 20px;
+}
+
+header h1{
+font-size:32px;
+}
+
+header p{
+font-size:17px;
+}
+
+nav a{
+display:inline-block;
+margin:5px 8px;
+}
+
+.container{
+padding:25px 18px;
+}
+
+h2{
+font-size:25px;
+}
+
 }
 
 </style>
@@ -123,105 +278,429 @@ color:#777;
 <header>
 
 <h1>Baterías de coche</h1>
-<p>Todo lo que necesitas saber sobre tipos, duración y precios</p>
+
+<p>
+Guía completa sobre tipos de baterías, duración, síntomas de desgaste,
+precios y consejos para elegir la batería adecuada.
+</p>
 
 </header>
+
 
 <nav>
 
 <a href="index.html">Inicio</a>
+
 <a href="tipos-baterias.html">Tipos de baterías</a>
+
 <a href="cuando-cambiar-bateria.html">Cuándo cambiarla</a>
 
 </nav>
 
+
 <div class="hero-img">
 
-<img 
-  src="https://images.unsplash.com/photo-1600661653561-629509216228"
-  alt="Batería de coche y componentes del vehículo">
+<img
+src="https://images.unsplash.com/photo-1600661653561-629509216228"
+alt="Batería de coche"
+loading="eager">
 
 </div>
 
-<div class="container">
 
-<h2>Información sobre baterías de coche</h2>
+<main class="container">
+
+
+<section>
+
+<h2>Todo sobre las baterías de coche</h2>
+
+<p class="intro">
+La batería del coche es uno de los componentes fundamentales del sistema
+eléctrico del vehículo. Su función principal es proporcionar la energía
+necesaria para poner en marcha el motor y alimentar diferentes sistemas
+eléctricos del vehículo.
+</p>
 
 <p>
-La batería es el componente encargado de suministrar energía para arrancar el vehículo
-y alimentar todos los sistemas eléctricos del coche.
+Con el paso del tiempo, la batería pierde capacidad y puede empezar a
+mostrar síntomas de desgaste. Saber qué tipo de batería necesita nuestro
+coche, cuánto puede durar y cuáles son las señales que indican que ha
+llegado el momento de sustituirla puede ayudar a evitar problemas de
+arranque.
+</p>
+
+<p>
+En BateriasCoche.net encontrarás información y guías sobre los principales
+tipos de baterías de coche, su duración, los síntomas de desgaste, los
+precios y los aspectos que conviene tener en cuenta antes de sustituir una
+batería.
+</p>
+
+</section>
+
+
+<section>
+
+<h2>Tipos de baterías de coche</h2>
+
+<p>
+Existen diferentes tecnologías de baterías y no todas son adecuadas para
+todos los vehículos. El tipo de batería que necesita un coche depende de
+sus características y de las especificaciones establecidas por el
+fabricante.
 </p>
 
 <div class="grid">
 
+
 <div class="card">
+
+<a href="tipos-baterias.html" class="card-link">
 
 <i class="fa-solid fa-car-battery"></i>
 
 <h3>Tipos de baterías</h3>
 
 <p>
-Existen diferentes tecnologías como plomo ácido, AGM o EFB utilizadas
-según las necesidades del vehículo.
+Conoce las principales tecnologías utilizadas en las baterías de coche,
+como las baterías convencionales, AGM y EFB.
 </p>
 
+</a>
+
 </div>
+
 
 <div class="card">
 
-<i class="fa-solid fa-euro-sign"></i>
+<i class="fa-solid fa-bolt"></i>
 
-<h3>Precio</h3>
+<h3>Baterías AGM</h3>
 
 <p>
-El precio de una batería suele oscilar entre 60€ y 250€
-dependiendo de la capacidad y la tecnología.
+Las baterías AGM están diseñadas para determinadas aplicaciones que
+requieren una mayor capacidad de gestión de ciclos y demanda eléctrica.
 </p>
 
 </div>
+
 
 <div class="card">
 
-<i class="fa-solid fa-clock"></i>
+<i class="fa-solid fa-battery-half"></i>
 
-<h3>Duración</h3>
+<h3>Baterías EFB</h3>
 
 <p>
-La vida útil de una batería suele estar entre 3 y 5 años
-según el uso y el clima.
+Las baterías EFB ofrecen características específicas y se utilizan en
+determinados vehículos, especialmente con sistemas Start-Stop.
 </p>
 
 </div>
 
+
 </div>
 
-<div class="cta">
+<p>
+<a href="tipos-baterias.html" class="text-link">
+Consulta la guía completa sobre los tipos de baterías de coche →
+</a>
+</p>
 
-<h3>Dominio disponible</h3>
+</section>
+
+
+<section>
+
+<h2>¿Cuándo hay que cambiar la batería del coche?</h2>
+
+<div class="info-box">
 
 <p>
-Este dominio puede ser ideal para ecommerce de recambios,
-comparadores de baterías o proyectos de automoción.
+La duración de una batería depende de diferentes factores, como el uso del
+vehículo, las condiciones climáticas, los trayectos realizados y el estado
+del sistema eléctrico.
 </p>
 
 <p>
-Contacto: admin@bateriascoche.net
+Además de tener en cuenta los años de uso, es importante prestar atención
+a los síntomas que puede mostrar el vehículo.
+</p>
+
+<ul>
+
+<li>El motor tiene dificultades para arrancar.</li>
+
+<li>El arranque es más lento de lo habitual.</li>
+
+<li>Las luces pueden perder intensidad.</li>
+
+<li>Pueden aparecer avisos relacionados con el sistema eléctrico.</li>
+
+<li>La batería puede descargarse con mayor frecuencia.</li>
+
+</ul>
+
+<p>
+Estos síntomas no siempre significan que la batería sea necesariamente la
+causa del problema, por lo que conviene comprobar su estado antes de
+sustituirla.
+</p>
+
+<p>
+<a href="cuando-cambiar-bateria.html" class="text-link">
+Consulta cuándo cambiar la batería del coche →
+</a>
 </p>
 
 </div>
 
+</section>
+
+
+<section>
+
+<h2>¿Cuánto dura una batería de coche?</h2>
+
+<p>
+No existe una duración idéntica para todas las baterías. Su vida útil
+puede variar dependiendo del tipo de batería, del vehículo y de las
+condiciones en las que se utiliza.
+</p>
+
+<p>
+Los trayectos muy cortos y frecuentes, los largos periodos con el vehículo
+parado, las temperaturas extremas y determinados problemas del sistema
+eléctrico pueden afectar al funcionamiento de la batería.
+</p>
+
+<p>
+Por este motivo, la edad de la batería debe considerarse junto con sus
+síntomas y su estado real antes de decidir si es necesario sustituirla.
+</p>
+
+</section>
+
+
+<section>
+
+<h2>¿Qué batería necesita mi coche?</h2>
+
+<p>
+Elegir una batería nueva no consiste únicamente en buscar una batería que
+tenga el mismo tamaño. Hay diferentes características que deben coincidir
+con las necesidades del vehículo.
+</p>
+
+<div class="grid">
+
+
+<div class="card">
+
+<i class="fa-solid fa-gauge-high"></i>
+
+<h3>Capacidad (Ah)</h3>
+
+<p>
+Los amperios-hora (Ah) indican la capacidad de almacenamiento eléctrico de
+la batería.
+</p>
+
 </div>
+
+
+<div class="card">
+
+<i class="fa-solid fa-bolt"></i>
+
+<h3>Corriente de arranque</h3>
+
+<p>
+La corriente de arranque, expresada habitualmente en amperios, es
+importante para poner en marcha el motor.
+</p>
+
+</div>
+
+
+<div class="card">
+
+<i class="fa-solid fa-ruler-combined"></i>
+
+<h3>Tamaño y posición</h3>
+
+<p>
+Las dimensiones, la posición de los bornes y el sistema de fijación deben
+ser compatibles con el vehículo.
+</p>
+
+</div>
+
+
+<div class="card">
+
+<i class="fa-solid fa-car"></i>
+
+<h3>Tipo de batería</h3>
+
+<p>
+El vehículo puede requerir una batería convencional, EFB, AGM u otra
+tecnología específica.
+</p>
+
+</div>
+
+
+</div>
+
+</section>
+
+
+<section>
+
+<h2>Problemas habituales relacionados con la batería</h2>
+
+<p>
+Una batería en mal estado puede provocar diferentes problemas en el
+vehículo. Sin embargo, algunos síntomas también pueden tener otros
+orígenes, por lo que es importante realizar un diagnóstico antes de
+sustituirla.
+</p>
+
+<div class="grid">
+
+
+<div class="card">
+
+<i class="fa-solid fa-car-burst"></i>
+
+<h3>El coche no arranca</h3>
+
+<p>
+Las dificultades de arranque pueden estar relacionadas con la batería,
+aunque también pueden existir otros problemas eléctricos o mecánicos.
+</p>
+
+</div>
+
+
+<div class="card">
+
+<i class="fa-solid fa-triangle-exclamation"></i>
+
+<h3>Síntomas de desgaste</h3>
+
+<p>
+Conocer los síntomas más habituales puede ayudar a detectar cuándo una
+batería está llegando al final de su vida útil.
+</p>
+
+</div>
+
+
+<div class="card">
+
+<i class="fa-solid fa-magnifying-glass"></i>
+
+<h3>Comprobar la batería</h3>
+
+<p>
+La batería puede comprobarse mediante diferentes métodos para conocer su
+estado y nivel de carga.
+</p>
+
+</div>
+
+
+</div>
+
+</section>
+
+
+<section>
+
+<h2>Preguntas frecuentes sobre baterías de coche</h2>
+
+
+<div class="faq">
+
+<h3>¿Cuánto suele durar una batería de coche?</h3>
+
+<p>
+La duración depende del tipo de batería, el vehículo, el uso y las
+condiciones de funcionamiento. Por eso no existe una cifra válida para
+todos los coches.
+</p>
+
+</div>
+
+
+<div class="faq">
+
+<h3>¿Cómo puedo saber si la batería está fallando?</h3>
+
+<p>
+Algunos síntomas habituales son dificultades para arrancar, un arranque
+más lento, pérdida de intensidad de las luces o determinados avisos
+relacionados con el sistema eléctrico.
+</p>
+
+</div>
+
+
+<div class="faq">
+
+<h3>¿Todas las baterías de coche son iguales?</h3>
+
+<p>
+No. Existen diferentes tecnologías, capacidades, tamaños y características.
+La batería adecuada depende de las especificaciones del vehículo.
+</p>
+
+</div>
+
+
+<div class="faq">
+
+<h3>¿Una batería descargada significa que hay que cambiarla?</h3>
+
+<p>
+No necesariamente. Una descarga puede tener diferentes causas. Es
+importante comprobar el estado de la batería y del sistema eléctrico antes
+de sustituirla.
+</p>
+
+</div>
+
+
+</section>
+
+
+</main>
+
 
 <footer>
 
-bateriascoche.net
+<p>
+<strong>BateriasCoche.net</strong>
+</p>
+
+<p>
+Información y guías sobre baterías de coche.
+</p>
+
+<p>
+Contacto:
+<a href="mailto:admin@bateriascoche.net">
+admin@bateriascoche.net
+</a>
+</p>
 
 </footer>
+
 
 </body>
 
 </html>
-
-
-
-
+```
