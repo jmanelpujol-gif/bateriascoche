@@ -4,14 +4,14 @@
 <head>
 
   <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZN8VD9P4CD"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZN8VD9P4CD"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-    gtag('config', 'G-ZN8VD9P4CD');
-  </script>
+  gtag('config', 'G-ZN8VD9P4CD');
+</script>
 
   <meta charset="UTF-8">
 
@@ -28,22 +28,34 @@
   <link rel="icon" href="bateriascoche_favicon.png" type="image/png">
 
   <!-- Open Graph -->
+
   <meta property="og:title" content="Tipos de baterías de coche: AGM, EFB y convencionales">
+
   <meta property="og:description" content="Guía sobre los principales tipos de baterías de coche, sus características, diferencias y aplicaciones.">
+
   <meta property="og:url" content="https://bateriascoche.net/tipos-baterias.html">
+
   <meta property="og:type" content="article">
+
   <meta property="og:site_name" content="BateriasCoche.net">
 
+
   <!-- Fuentes -->
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
+
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
+
   <!-- Font Awesome -->
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
+
   <!-- Datos estructurados -->
+
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -59,11 +71,13 @@
   }
   </script>
 
+
 <style>
 
 *{
 box-sizing:border-box;
 }
+
 
 body{
 font-family:'Poppins',sans-serif;
@@ -73,22 +87,26 @@ color:#333;
 line-height:1.7;
 }
 
+
 nav{
 background:#1c1c1c;
 padding:14px 10px;
 text-align:center;
 }
 
+
 nav a{
 color:white;
-margin:0 14px;
+margin:0 12px;
 text-decoration:none;
 font-weight:500;
 }
 
+
 nav a:hover{
 color:#ffcc00;
 }
+
 
 .container{
 max-width:1050px;
@@ -96,188 +114,377 @@ margin:auto;
 padding:35px 25px;
 }
 
+
+/* HERO */
+
 .hero{
+
 background:
 linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)),
 url("https://images.unsplash.com/photo-1487754180451-c456f719a1fc");
+
 background-size:cover;
+
 background-position:center;
+
 color:white;
+
 padding:80px 25px;
+
 border-radius:10px;
+
 text-align:center;
+
 margin-bottom:35px;
+
 }
+
 
 .hero h1{
+
 font-size:40px;
+
 line-height:1.2;
+
 margin:0 0 15px;
+
 }
+
 
 .hero p{
+
 font-size:18px;
-max-width:750px;
+
+max-width:780px;
+
 margin:auto;
+
 }
+
+
+/* CONTENT */
 
 .intro{
+
 font-size:18px;
+
 margin-bottom:30px;
+
 }
+
 
 h2{
+
 font-size:30px;
+
 margin-top:45px;
+
 margin-bottom:15px;
+
 color:#222;
+
 line-height:1.3;
+
 }
+
 
 h3{
+
 color:#222;
+
 line-height:1.4;
+
 }
+
+
+/* CARDS */
 
 .card{
+
 background:white;
+
 padding:28px;
+
 margin:20px 0;
+
 border-radius:10px;
+
 box-shadow:0 3px 12px rgba(0,0,0,0.08);
+
 }
+
 
 .card i{
+
 font-size:28px;
+
 color:#ff9900;
+
 margin-bottom:10px;
+
 }
+
 
 .card h2{
+
 margin-top:0;
+
 font-size:26px;
+
 }
+
+
+.card h3{
+
+margin-top:8px;
+
+}
+
 
 .card ul{
+
 padding-left:25px;
+
 }
+
 
 .card li{
+
 margin-bottom:8px;
+
 }
+
 
 .grid{
+
 display:grid;
+
 grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
 gap:20px;
+
 margin-top:25px;
+
 }
+
 
 .grid .card{
+
 margin:0;
+
 }
+
+
+/* INFO */
+
+.info-box{
+
+background:#eaf2ff;
+
+padding:30px;
+
+border-radius:10px;
+
+margin-top:25px;
+
+}
+
+
+.warning-box{
+
+background:#fff8e6;
+
+padding:30px;
+
+border-radius:10px;
+
+margin-top:25px;
+
+border-left:5px solid #ff9900;
+
+}
+
+
+/* TABLE */
 
 .table-wrapper{
+
 overflow-x:auto;
+
 margin-top:25px;
+
 }
 
+
 table{
+
 width:100%;
+
 border-collapse:collapse;
+
 background:white;
+
 border-radius:10px;
+
 overflow:hidden;
+
 box-shadow:0 3px 12px rgba(0,0,0,0.08);
+
 }
+
 
 th,
 td{
+
 padding:15px;
+
 text-align:left;
+
 border-bottom:1px solid #e5e5e5;
+
 }
+
 
 th{
+
 background:#1c1c1c;
+
 color:white;
+
 font-weight:600;
+
 }
+
 
 tr:last-child td{
+
 border-bottom:none;
+
 }
 
-.info-box{
-background:#eaf2ff;
-padding:28px;
-border-radius:10px;
-margin-top:25px;
-}
 
-.info-box strong{
-color:#222;
-}
-
-.faq{
-background:white;
-padding:22px 25px;
-margin-top:15px;
-border-radius:8px;
-box-shadow:0 2px 8px rgba(0,0,0,0.06);
-}
-
-.faq h3{
-margin-top:0;
-margin-bottom:8px;
-}
+/* LINKS */
 
 .text-link{
+
 color:#d98200;
+
 font-weight:600;
+
 text-decoration:none;
+
 }
+
 
 .text-link:hover{
+
 text-decoration:underline;
+
 }
+
+
+/* FAQ */
+
+.faq{
+
+background:white;
+
+padding:22px 25px;
+
+margin-top:15px;
+
+border-radius:8px;
+
+box-shadow:0 2px 8px rgba(0,0,0,0.06);
+
+}
+
+
+.faq h3{
+
+margin-top:0;
+
+margin-bottom:8px;
+
+}
+
+
+/* FOOTER */
 
 footer{
+
 text-align:center;
-padding:30px 20px;
+
+padding:35px 20px;
+
 color:#777;
+
 font-size:14px;
+
 }
 
+
 footer a{
+
 color:#777;
+
+text-decoration:none;
+
 }
+
+
+footer a:hover{
+
+text-decoration:underline;
+
+}
+
+
+/* MOBILE */
 
 @media (max-width:700px){
 
 .hero{
+
 padding:65px 20px;
+
 }
+
 
 .hero h1{
+
 font-size:32px;
+
 }
+
 
 .hero p{
+
 font-size:17px;
+
 }
+
 
 nav a{
+
 display:inline-block;
+
 margin:5px 8px;
+
 }
+
 
 .container{
+
 padding:25px 18px;
+
 }
 
+
 h2{
+
 font-size:25px;
+
 }
 
 }
@@ -286,8 +493,11 @@ font-size:25px;
 
 </head>
 
+
 <body>
 
+
+<!-- NAVEGACIÓN -->
 
 <nav>
 
@@ -297,11 +507,18 @@ font-size:25px;
 
 <a href="cuando-cambiar-bateria.html">Cuándo cambiarla</a>
 
+<a href="cuanto-dura-bateria-coche.html">Cuánto dura</a>
+
+<a href="como-comprobar-bateria-coche.html">Cómo comprobarla</a>
+
 </nav>
+
 
 
 <main class="container">
 
+
+<!-- HERO -->
 
 <section class="hero">
 
@@ -316,32 +533,44 @@ antes de elegir una batería nueva.
 </section>
 
 
+
+<!-- INTRODUCCIÓN -->
+
 <section>
 
 <h2>¿Qué tipos de baterías de coche existen?</h2>
 
 <p class="intro">
+
 No todas las baterías de coche utilizan la misma tecnología. Aunque su
 función principal es proporcionar la energía necesaria para el arranque y
 alimentar los sistemas eléctricos del vehículo, existen diferentes tipos
 de baterías diseñados para distintas necesidades.
+
 </p>
 
 <p>
+
 Entre las tecnologías más habituales encontramos las baterías
 convencionales de plomo-ácido, las baterías AGM y las baterías EFB. La
 elección depende de las características del vehículo y de las
 especificaciones indicadas por el fabricante.
+
 </p>
 
 <p>
+
 También es importante tener en cuenta si el vehículo dispone de sistemas
 como Start-Stop, ya que estos pueden requerir una batería preparada para
 soportar un mayor número de ciclos de carga y descarga.
+
 </p>
 
 </section>
 
+
+
+<!-- BATERÍAS CONVENCIONALES -->
 
 <section>
 
@@ -355,32 +584,47 @@ soportar un mayor número de ciclos de carga y descarga.
 <h2>Baterías convencionales de plomo-ácido</h2>
 
 <p>
+
 Las baterías convencionales de plomo-ácido son una tecnología ampliamente
 utilizada en automóviles. Su funcionamiento se basa en celdas que utilizan
 placas de plomo y un electrolito.
+
 </p>
 
 <p>
+
 Son una solución habitual en vehículos que no requieren las características
 específicas de tecnologías más avanzadas.
+
 </p>
 
 <h3>Características principales</h3>
 
 <ul>
 
-<li>Tecnología ampliamente utilizada en automoción.</li>
+<li>
+Tecnología ampliamente utilizada en automoción.
+</li>
 
-<li>Normalmente tienen un coste inferior al de tecnologías más avanzadas.</li>
+<li>
+Normalmente tienen un coste inferior al de tecnologías más avanzadas.
+</li>
 
-<li>Existen diferentes capacidades y tamaños.</li>
+<li>
+Existen diferentes capacidades y tamaños.
+</li>
 
-<li>Su elección debe realizarse de acuerdo con las especificaciones del vehículo.</li>
+<li>
+Su elección debe realizarse de acuerdo con las especificaciones del vehículo.
+</li>
 
 </ul>
 
 </div>
 
+
+
+<!-- AGM -->
 
 <div class="card">
 
@@ -389,33 +633,48 @@ específicas de tecnologías más avanzadas.
 <h2>Baterías AGM</h2>
 
 <p>
+
 Las baterías AGM utilizan una tecnología en la que el electrolito está
 absorbido en un material separador de fibra de vidrio. AGM corresponde a
 las siglas de <strong>Absorbent Glass Mat</strong>.
+
 </p>
 
 <p>
+
 Este tipo de batería está diseñado para aplicaciones que requieren una
 mayor resistencia a determinados ciclos de carga y descarga y puede
 encontrarse en vehículos con mayores necesidades eléctricas.
+
 </p>
 
 <h3>Características principales</h3>
 
 <ul>
 
-<li>Mayor capacidad para soportar determinados ciclos de carga y descarga.</li>
+<li>
+Mayor capacidad para soportar determinados ciclos de carga y descarga.
+</li>
 
-<li>Utilizadas en determinados vehículos con sistemas Start-Stop.</li>
+<li>
+Utilizadas en determinados vehículos con sistemas Start-Stop.
+</li>
 
-<li>Disponibles en diferentes capacidades y tamaños.</li>
+<li>
+Disponibles en diferentes capacidades y tamaños.
+</li>
 
-<li>Deben sustituirse por una batería compatible con las especificaciones del vehículo.</li>
+<li>
+Deben sustituirse por una batería compatible con las especificaciones del vehículo.
+</li>
 
 </ul>
 
 </div>
 
+
+
+<!-- EFB -->
 
 <div class="card">
 
@@ -424,45 +683,61 @@ encontrarse en vehículos con mayores necesidades eléctricas.
 <h2>Baterías EFB</h2>
 
 <p>
+
 Las baterías EFB utilizan una tecnología denominada
 <strong>Enhanced Flooded Battery</strong>. Se desarrollaron para ofrecer
 unas prestaciones superiores a las baterías convencionales en determinadas
 aplicaciones.
+
 </p>
 
 <p>
+
 Son utilizadas en numerosos vehículos equipados con sistemas Start-Stop,
 aunque las necesidades concretas dependen siempre del diseño del vehículo.
+
 </p>
 
 <h3>Características principales</h3>
 
 <ul>
 
-<li>Diseñadas para soportar más ciclos que determinadas baterías convencionales.</li>
+<li>
+Diseñadas para soportar más ciclos que determinadas baterías convencionales.
+</li>
 
-<li>Utilizadas en determinados vehículos con tecnología Start-Stop.</li>
+<li>
+Utilizadas en determinados vehículos con tecnología Start-Stop.
+</li>
 
-<li>Existen diferentes capacidades y formatos.</li>
+<li>
+Existen diferentes capacidades y formatos.
+</li>
 
-<li>La sustitución debe realizarse utilizando una batería compatible.</li>
+<li>
+La sustitución debe realizarse utilizando una batería compatible.
+</li>
 
 </ul>
 
 </div>
 
-
 </section>
 
+
+
+<!-- COMPARATIVA -->
 
 <section>
 
 <h2>Comparativa entre baterías convencionales, AGM y EFB</h2>
 
 <p>
+
 Las tres tecnologías tienen características diferentes. La siguiente tabla
 ofrece una comparación general, pero la batería adecuada siempre dependerá
 del vehículo concreto.
+
 </p>
 
 
@@ -545,6 +820,9 @@ del vehículo concreto.
 </section>
 
 
+
+<!-- START STOP -->
+
 <section>
 
 <h2>¿Qué es el sistema Start-Stop?</h2>
@@ -552,25 +830,32 @@ del vehículo concreto.
 <div class="info-box">
 
 <p>
+
 El sistema Start-Stop apaga automáticamente el motor cuando el vehículo se
 detiene en determinadas situaciones y vuelve a arrancarlo cuando es
 necesario.
+
 </p>
 
 <p>
+
 Este funcionamiento puede aumentar el número de ciclos de arranque a los
 que está sometida la batería. Por este motivo, determinados vehículos con
 Start-Stop utilizan baterías EFB o AGM diseñadas para soportar estas
 condiciones de funcionamiento.
+
 </p>
 
 <p>
+
 <strong>
 No todos los vehículos Start-Stop utilizan necesariamente la misma
 tecnología de batería.
 </strong>
+
 La batería adecuada debe determinarse siguiendo las especificaciones del
 fabricante.
+
 </p>
 
 </div>
@@ -578,15 +863,21 @@ fabricante.
 </section>
 
 
+
+<!-- QUÉ BATERÍA NECESITA -->
+
 <section>
 
 <h2>¿Cómo saber qué tipo de batería necesita mi coche?</h2>
 
 <p>
+
 Antes de comprar una batería nueva es importante comprobar las
 especificaciones del vehículo. No basta con elegir una batería que tenga
 un tamaño parecido.
+
 </p>
+
 
 <div class="grid">
 
@@ -598,11 +889,14 @@ un tamaño parecido.
 <h3>Consultar el manual</h3>
 
 <p>
+
 El manual del vehículo puede indicar las características y especificaciones
 de la batería recomendada.
+
 </p>
 
 </div>
+
 
 
 <div class="card">
@@ -612,11 +906,14 @@ de la batería recomendada.
 <h3>Comprobar la batería instalada</h3>
 
 <p>
+
 La etiqueta de la batería puede proporcionar información sobre capacidad,
 corriente de arranque y tecnología.
+
 </p>
 
 </div>
+
 
 
 <div class="card">
@@ -626,11 +923,14 @@ corriente de arranque y tecnología.
 <h3>Comprobar dimensiones</h3>
 
 <p>
+
 La longitud, anchura, altura, sistema de fijación y posición de los bornes
 deben ser compatibles con el vehículo.
+
 </p>
 
 </div>
+
 
 
 <div class="card">
@@ -640,8 +940,10 @@ deben ser compatibles con el vehículo.
 <h3>Comprobar la tecnología</h3>
 
 <p>
+
 Si el vehículo utiliza una batería AGM o EFB, es importante comprobar qué
 tecnología especifica el fabricante para la sustitución.
+
 </p>
 
 </div>
@@ -652,56 +954,119 @@ tecnología especifica el fabricante para la sustitución.
 </section>
 
 
-<section>
 
-<h2>¿Se puede cambiar una batería AGM por una EFB?</h2>
-
-<p>
-No debemos asumir que una batería AGM y una EFB son intercambiables en
-cualquier vehículo. Aunque ambas tecnologías pueden utilizarse en
-determinados vehículos con Start-Stop, sus características no son
-idénticas.
-</p>
-
-<p>
-Antes de realizar una sustitución hay que comprobar las especificaciones
-del vehículo y las recomendaciones del fabricante.
-</p>
-
-<p>
-En una futura guía analizaremos con más detalle las diferencias entre AGM y
-EFB y en qué situaciones puede ser apropiado utilizar cada tecnología.
-</p>
-
-</section>
-
+<!-- DURACIÓN -->
 
 <section>
 
-<h2>¿Cuándo es necesario cambiar la batería?</h2>
+<h2>¿Cuánto dura una batería según su tipo?</h2>
 
 <p>
-El tipo de batería no es el único factor que determina cuándo debe
-sustituirse. La edad, el estado de carga, el uso del vehículo y los síntomas
-que presente son también importantes.
-</p>
 
-<p>
-Si el coche presenta dificultades de arranque o la batería muestra signos
-de desgaste, conviene comprobar su estado antes de decidir si es necesario
-cambiarla.
+La duración de una batería no depende únicamente de su tecnología. El
+vehículo, el uso, las condiciones ambientales y el sistema de carga también
+influyen en su vida útil.
+
 </p>
 
 <p>
 
-<a href="cuando-cambiar-bateria.html" class="text-link">
-Consulta nuestra guía sobre cuándo cambiar la batería del coche →
+Por este motivo, no es recomendable elegir una batería únicamente pensando
+en cuánto tiempo puede durar.
+
+</p>
+
+<p>
+
+Si quieres conocer los principales factores que afectan a la duración,
+puedes consultar:
+
+<a href="cuanto-dura-bateria-coche.html" class="text-link">
+
+¿Cuánto dura una batería de coche? →
+
 </a>
 
 </p>
 
 </section>
 
+
+
+<!-- COMPROBACIÓN -->
+
+<section>
+
+<h2>¿Cómo comprobar una batería de coche?</h2>
+
+<p>
+
+Una batería puede presentar síntomas de desgaste o problemas de carga antes
+de dejar de funcionar completamente.
+
+</p>
+
+<p>
+
+Una primera comprobación puede incluir una inspección visual y una medición
+de voltaje. Para conocer el estado real de la batería puede ser necesaria
+una prueba específica.
+
+</p>
+
+<p>
+
+Te explicamos cómo hacerlo en nuestra guía:
+
+<a href="como-comprobar-bateria-coche.html" class="text-link">
+
+Cómo comprobar la batería del coche →
+
+</a>
+
+</p>
+
+</section>
+
+
+
+<!-- CUÁNDO CAMBIAR -->
+
+<section>
+
+<h2>¿Cuándo hay que cambiar una batería?</h2>
+
+<p>
+
+El tipo de batería no es el único factor que determina cuándo debe
+sustituirse.
+
+</p>
+
+<p>
+
+Las dificultades de arranque, las descargas frecuentes o determinados
+problemas eléctricos pueden indicar que conviene revisar su estado.
+
+</p>
+
+<p>
+
+Puedes consultar nuestra guía sobre los principales síntomas:
+
+<a href="cuando-cambiar-bateria.html" class="text-link">
+
+¿Cuándo cambiar la batería del coche? →
+
+</a>
+
+</p>
+
+</section>
+
+
+
+<!-- FAQ -->
 
 <section>
 
@@ -713,12 +1078,15 @@ Consulta nuestra guía sobre cuándo cambiar la batería del coche →
 <h3>¿Cuál es la batería de coche más común?</h3>
 
 <p>
+
 Las baterías convencionales de plomo-ácido han sido ampliamente utilizadas
 en automóviles. Sin embargo, muchos vehículos modernos utilizan otras
 tecnologías dependiendo de sus características.
+
 </p>
 
 </div>
+
 
 
 <div class="faq">
@@ -726,12 +1094,15 @@ tecnologías dependiendo de sus características.
 <h3>¿Qué significa AGM en una batería?</h3>
 
 <p>
+
 AGM significa <strong>Absorbent Glass Mat</strong>. Es una tecnología en la
 que el electrolito queda absorbido en un material separador de fibra de
 vidrio.
+
 </p>
 
 </div>
+
 
 
 <div class="faq">
@@ -739,12 +1110,15 @@ vidrio.
 <h3>¿Qué significa EFB?</h3>
 
 <p>
+
 EFB significa <strong>Enhanced Flooded Battery</strong>. Es una tecnología
 de batería desarrollada para ofrecer determinadas prestaciones superiores
 a las baterías convencionales en aplicaciones concretas.
+
 </p>
 
 </div>
+
 
 
 <div class="faq">
@@ -752,12 +1126,15 @@ a las baterías convencionales en aplicaciones concretas.
 <h3>¿Qué batería utiliza un coche con Start-Stop?</h3>
 
 <p>
+
 Depende del vehículo. Algunos modelos utilizan baterías EFB y otros AGM.
 La tecnología correcta debe comprobarse en las especificaciones del
 vehículo o del fabricante.
+
 </p>
 
 </div>
+
 
 
 <div class="faq">
@@ -765,9 +1142,27 @@ vehículo o del fabricante.
 <h3>¿Puedo poner cualquier batería que tenga el mismo tamaño?</h3>
 
 <p>
+
 No necesariamente. Además de las dimensiones hay que comprobar aspectos
 como la capacidad, la corriente de arranque, la tecnología y la
 compatibilidad con el sistema eléctrico del vehículo.
+
+</p>
+
+</div>
+
+
+
+<div class="faq">
+
+<h3>¿Una batería AGM dura más que una convencional?</h3>
+
+<p>
+
+No existe una duración universal que permita afirmar que una tecnología
+siempre durará más que otra. La vida útil depende de la batería, el
+vehículo, las condiciones de uso y el sistema de carga.
+
 </p>
 
 </div>
@@ -779,26 +1174,47 @@ compatibilidad con el sistema eléctrico del vehículo.
 </main>
 
 
+
+<!-- FOOTER -->
+
 <footer>
 
 <p>
+
 <strong>BateriasCoche.net</strong>
+
 </p>
 
 <p>
+
 Información y guías sobre baterías de coche.
+
 </p>
 
 <p>
+
 <a href="index.html">Inicio</a> ·
-<a href="cuando-cambiar-bateria.html">Cuándo cambiar la batería</a>
+
+<a href="tipos-baterias.html">Tipos de baterías</a> ·
+
+<a href="cuando-cambiar-bateria.html">Cuándo cambiar la batería</a> ·
+
+<a href="cuanto-dura-bateria-coche.html">Cuánto dura una batería</a> ·
+
+<a href="como-comprobar-bateria-coche.html">Cómo comprobar la batería</a>
+
 </p>
 
 <p>
+
 Contacto:
+
 <a href="mailto:admin@bateriascoche.net">
+
 admin@bateriascoche.net
+
 </a>
+
 </p>
 
 </footer>
