@@ -17,7 +17,7 @@
 
   <title>¿Cuánto dura una batería de coche? Vida útil y consejos | BateriasCoche.net</title>
 
-  <meta name="description" content="¿Cuánto dura una batería de coche? Descubre su vida útil, los factores que afectan a su duración y consejos para mantenerla en buen estado durante más tiempo.">
+  <meta name="description" content="¿Cuánto dura una batería de coche? Descubre su vida útil, los factores que afectan a su duración, cuánto pueden durar las baterías AGM y EFB y cómo alargar su vida.">
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -27,23 +27,36 @@
 
   <link rel="icon" href="bateriascoche_favicon.png" type="image/png">
 
+
   <!-- Open Graph -->
+
   <meta property="og:title" content="¿Cuánto dura una batería de coche? Vida útil y consejos">
-  <meta property="og:description" content="Descubre cuánto puede durar una batería de coche, qué factores afectan a su vida útil y cómo mantenerla en buen estado.">
+
+  <meta property="og:description" content="Descubre cuánto dura una batería de coche, qué factores afectan a su vida útil y cómo mantenerla en buen estado.">
+
   <meta property="og:url" content="https://bateriascoche.net/cuanto-dura-bateria-coche.html">
+
   <meta property="og:type" content="article">
+
   <meta property="og:site_name" content="BateriasCoche.net">
 
+
   <!-- Fuentes -->
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
+
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
+
   <!-- Font Awesome -->
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
+
   <!-- Datos estructurados -->
+
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -59,11 +72,13 @@
   }
   </script>
 
+
 <style>
 
 *{
 box-sizing:border-box;
 }
+
 
 body{
 font-family:'Poppins',sans-serif;
@@ -73,22 +88,26 @@ color:#333;
 line-height:1.7;
 }
 
+
 nav{
 background:#1c1c1c;
 padding:14px 10px;
 text-align:center;
 }
 
+
 nav a{
 color:white;
-margin:0 14px;
+margin:0 12px;
 text-decoration:none;
 font-weight:500;
 }
 
+
 nav a:hover{
 color:#ffcc00;
 }
+
 
 .container{
 max-width:1050px;
@@ -96,198 +115,433 @@ margin:auto;
 padding:35px 25px;
 }
 
+
+/* HERO */
+
 .hero{
+
 background:
-linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)),
+linear-gradient(rgba(0,0,0,0.62),rgba(0,0,0,0.62)),
 url("https://images.unsplash.com/photo-1600661653561-629509216228");
+
 background-size:cover;
+
 background-position:center;
+
 color:white;
+
 padding:80px 25px;
+
 border-radius:10px;
+
 text-align:center;
+
 margin-bottom:35px;
+
 }
+
 
 .hero h1{
+
 font-size:40px;
+
 line-height:1.2;
+
 margin:0 0 15px;
+
 }
+
 
 .hero p{
+
 font-size:18px;
-max-width:750px;
+
+max-width:800px;
+
 margin:auto;
+
 }
+
+
+/* CONTENT */
 
 .intro{
+
 font-size:18px;
+
 margin-bottom:30px;
+
 }
+
 
 h2{
+
 font-size:30px;
+
 margin-top:45px;
+
 margin-bottom:15px;
+
 color:#222;
+
 line-height:1.3;
+
 }
+
 
 h3{
+
 color:#222;
+
 line-height:1.4;
+
 }
+
+
+/* CARDS */
 
 .card{
+
 background:white;
+
 padding:28px;
+
 margin:20px 0;
+
 border-radius:10px;
+
 box-shadow:0 3px 12px rgba(0,0,0,0.08);
+
 }
+
 
 .card i{
+
 font-size:28px;
+
 color:#ff9900;
+
 margin-bottom:10px;
+
 }
+
 
 .card h3{
+
 margin-top:8px;
+
 }
+
 
 .grid{
+
 display:grid;
+
 grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
 gap:20px;
+
 margin-top:25px;
+
 }
+
 
 .grid .card{
+
 margin:0;
+
 }
+
+
+/* HIGHLIGHT */
 
 .highlight{
+
 background:#eaf2ff;
+
 padding:30px;
+
 border-radius:10px;
+
 margin-top:25px;
+
 text-align:center;
+
 }
+
 
 .highlight .number{
+
 font-size:42px;
+
 font-weight:700;
+
 color:#222;
+
 display:block;
+
 margin-bottom:5px;
+
 }
 
-.warning-box{
-background:#fff8e6;
-padding:28px;
-border-radius:10px;
-margin-top:25px;
-border-left:5px solid #ff9900;
-}
+
+/* INFO */
 
 .info-box{
+
 background:#eaf2ff;
-padding:28px;
+
+padding:30px;
+
 border-radius:10px;
+
 margin-top:25px;
+
 }
 
-.info-box strong,
-.warning-box strong{
-color:#222;
-}
 
-.faq{
-background:white;
-padding:22px 25px;
-margin-top:15px;
-border-radius:8px;
-box-shadow:0 2px 8px rgba(0,0,0,0.06);
-}
+.warning-box{
 
-.faq h3{
-margin-top:0;
-margin-bottom:8px;
-}
+background:#fff8e6;
 
-.sources{
-background:white;
-padding:28px;
+padding:30px;
+
 border-radius:10px;
-margin-top:40px;
-box-shadow:0 3px 12px rgba(0,0,0,0.06);
+
+margin-top:25px;
+
+border-left:5px solid #ff9900;
+
 }
 
-.sources ul{
-padding-left:25px;
+
+/* TABLE */
+
+.table-wrapper{
+
+overflow-x:auto;
+
+margin-top:25px;
+
 }
 
-.sources li{
-margin-bottom:10px;
+
+table{
+
+width:100%;
+
+border-collapse:collapse;
+
+background:white;
+
+border-radius:10px;
+
+overflow:hidden;
+
+box-shadow:0 3px 12px rgba(0,0,0,0.08);
+
 }
 
-.sources a{
-color:#d98200;
-text-decoration:none;
+
+th,
+td{
+
+padding:15px;
+
+text-align:left;
+
+border-bottom:1px solid #e5e5e5;
+
 }
 
-.sources a:hover{
-text-decoration:underline;
+
+th{
+
+background:#1c1c1c;
+
+color:white;
+
+font-weight:600;
+
 }
+
+
+tr:last-child td{
+
+border-bottom:none;
+
+}
+
+
+/* LINKS */
 
 .text-link{
+
 color:#d98200;
+
 font-weight:600;
+
 text-decoration:none;
+
 }
+
 
 .text-link:hover{
+
 text-decoration:underline;
+
 }
+
+
+/* FAQ */
+
+.faq{
+
+background:white;
+
+padding:22px 25px;
+
+margin-top:15px;
+
+border-radius:8px;
+
+box-shadow:0 2px 8px rgba(0,0,0,0.06);
+
+}
+
+
+.faq h3{
+
+margin-top:0;
+
+margin-bottom:8px;
+
+}
+
+
+/* SOURCES */
+
+.sources{
+
+background:white;
+
+padding:28px;
+
+border-radius:10px;
+
+margin-top:40px;
+
+box-shadow:0 3px 12px rgba(0,0,0,0.06);
+
+}
+
+
+.sources ul{
+
+padding-left:25px;
+
+}
+
+
+.sources li{
+
+margin-bottom:10px;
+
+}
+
+
+.sources a{
+
+color:#d98200;
+
+text-decoration:none;
+
+}
+
+
+.sources a:hover{
+
+text-decoration:underline;
+
+}
+
+
+/* FOOTER */
 
 footer{
+
 text-align:center;
-padding:30px 20px;
+
+padding:35px 20px;
+
 color:#777;
+
 font-size:14px;
+
 }
 
+
 footer a{
+
 color:#777;
+
+text-decoration:none;
+
 }
+
+
+footer a:hover{
+
+text-decoration:underline;
+
+}
+
+
+/* MOBILE */
 
 @media (max-width:700px){
 
 .hero{
+
 padding:65px 20px;
+
 }
+
 
 .hero h1{
+
 font-size:32px;
+
 }
+
 
 .hero p{
+
 font-size:17px;
+
 }
+
 
 nav a{
+
 display:inline-block;
+
 margin:5px 8px;
+
 }
+
 
 .container{
+
 padding:25px 18px;
+
 }
 
+
 h2{
+
 font-size:25px;
+
 }
 
 }
@@ -296,8 +550,11 @@ font-size:25px;
 
 </head>
 
+
 <body>
 
+
+<!-- NAVEGACIÓN -->
 
 <nav>
 
@@ -309,41 +566,58 @@ font-size:25px;
 
 <a href="cuanto-dura-bateria-coche.html">Cuánto dura</a>
 
+<a href="como-comprobar-bateria-coche.html">Cómo comprobarla</a>
+
 </nav>
+
 
 
 <main class="container">
 
+
+<!-- HERO -->
 
 <section class="hero">
 
 <h1>¿Cuánto dura una batería de coche?</h1>
 
 <p>
-Descubre cuánto puede durar una batería, qué factores influyen en su vida
-útil y qué puedes hacer para mantenerla en buen estado durante más tiempo.
+Descubre cuánto puede durar una batería de coche, qué factores influyen
+en su vida útil y qué puedes hacer para mantenerla en buen estado durante
+más tiempo.
 </p>
 
 </section>
 
+
+
+<!-- INTRODUCCIÓN -->
 
 <section>
 
 <h2>¿Cuánto tiempo dura una batería de coche?</h2>
 
 <p class="intro">
-La duración de una batería de coche depende de numerosos factores. Como
-referencia general, Bosch Car Service sitúa la vida útil habitual de una
-batería aproximadamente entre <strong>3 y 5 años</strong>, aunque este
-periodo puede variar considerablemente dependiendo del vehículo, el uso y
-las condiciones de funcionamiento.
+
+Como referencia general, una batería de coche puede tener una vida útil de
+aproximadamente <strong>3 a 5 años</strong>. Sin embargo, esta cifra no es
+una fecha de caducidad y la duración real puede variar considerablemente.
+
 </p>
 
 <p>
-Por tanto, no existe una fecha exacta en la que todas las baterías deban
-ser sustituidas. Una batería puede durar menos tiempo si está sometida a
-condiciones exigentes, mientras que otra puede continuar funcionando
-correctamente durante más años.
+
+El tipo de batería, el vehículo, la frecuencia de uso, los trayectos que
+realizamos y las condiciones ambientales pueden influir en cuánto tiempo
+permanece en buenas condiciones.
+
+</p>
+
+<p>
+
+Por este motivo, dos vehículos iguales pueden necesitar sustituir su
+batería en momentos diferentes.
+
 </p>
 
 <div class="highlight">
@@ -351,8 +625,12 @@ correctamente durante más años.
 <span class="number">3–5 años</span>
 
 <p>
-Es una referencia general de duración, pero no debe considerarse un
-intervalo obligatorio para todos los vehículos.
+Referencia general de duración de una batería de coche.
+</p>
+
+<p>
+La duración real depende de las condiciones de uso y del estado de la
+batería.
 </p>
 
 </div>
@@ -360,14 +638,18 @@ intervalo obligatorio para todos los vehículos.
 </section>
 
 
+
+<!-- FACTORES -->
+
 <section>
 
-<h2>¿Qué factores afectan a la duración de una batería?</h2>
+<h2>¿Qué factores afectan a la vida útil de una batería?</h2>
 
 <p>
-La vida útil de una batería depende tanto de sus características como del
-uso que se haga del vehículo. Algunos de los factores más importantes son
-los siguientes.
+
+La duración de una batería no depende únicamente de su antigüedad. Hay
+varios factores que pueden acelerar su desgaste.
+
 </p>
 
 
@@ -381,17 +663,21 @@ los siguientes.
 <h3>Trayectos cortos</h3>
 
 <p>
-Los trayectos cortos pueden ser especialmente exigentes para la batería.
-Durante el arranque se consume energía y puede no haber suficiente tiempo
-de conducción para recuperar completamente esa energía.
+
+Los trayectos cortos y frecuentes pueden dificultar que la batería recupere
+la energía utilizada durante el arranque.
+
 </p>
 
 <p>
-VARTA señala que este problema es especialmente relevante cuando la
-batería ya presenta desgaste o una carga insuficiente.
+
+Cuando este tipo de uso se repite, la batería puede permanecer durante
+periodos prolongados con un nivel de carga insuficiente.
+
 </p>
 
 </div>
+
 
 
 <div class="card">
@@ -401,12 +687,21 @@ batería ya presenta desgaste o una carga insuficiente.
 <h3>Temperaturas extremas</h3>
 
 <p>
-Las condiciones de temperatura pueden afectar al funcionamiento de la
-batería. Tanto el calor como el frío pueden aumentar las exigencias sobre
-ella, aunque por mecanismos diferentes.
+
+Tanto las temperaturas elevadas como las bajas pueden afectar al
+funcionamiento de la batería.
+
+</p>
+
+<p>
+
+El calor puede acelerar determinados procesos de degradación, mientras que
+el frío aumenta las exigencias durante el arranque.
+
 </p>
 
 </div>
+
 
 
 <div class="card">
@@ -416,12 +711,14 @@ ella, aunque por mecanismos diferentes.
 <h3>Uso del vehículo</h3>
 
 <p>
-La frecuencia de los arranques, los periodos de inactividad y la cantidad
-de sistemas eléctricos utilizados pueden influir en el estado de la
-batería.
+
+La frecuencia de los arranques, los kilómetros recorridos y los periodos
+de inactividad pueden influir en la vida útil de la batería.
+
 </p>
 
 </div>
+
 
 
 <div class="card">
@@ -431,26 +728,38 @@ batería.
 <h3>Sistema de carga</h3>
 
 <p>
-El sistema encargado de cargar la batería debe funcionar correctamente.
-Un problema de carga puede hacer que la batería no recupere adecuadamente
-la energía utilizada.
+
+Un problema en el sistema de carga puede impedir que la batería recupere
+correctamente la energía utilizada.
+
+</p>
+
+<p>
+
+Si una batería se descarga repetidamente, conviene comprobar también el
+sistema de carga.
+
 </p>
 
 </div>
+
 
 
 <div class="card">
 
 <i class="fa-solid fa-clock"></i>
 
-<h3>Tiempo de inactividad</h3>
+<h3>Periodos de inactividad</h3>
 
 <p>
-Dejar el vehículo parado durante periodos prolongados puede contribuir a
-la descarga de la batería, especialmente si existen consumos eléctricos.
+
+Un vehículo parado durante mucho tiempo puede sufrir una descarga
+progresiva debido a los pequeños consumos eléctricos que permanecen activos.
+
 </p>
 
 </div>
+
 
 
 <div class="card">
@@ -460,8 +769,10 @@ la descarga de la batería, especialmente si existen consumos eléctricos.
 <h3>Consumos eléctricos</h3>
 
 <p>
-Las luces, sistemas multimedia u otros dispositivos que permanezcan
-activos con el motor apagado pueden descargar la batería.
+
+Luces, sistemas multimedia y otros dispositivos pueden descargar la
+batería si permanecen funcionando con el motor apagado.
+
 </p>
 
 </div>
@@ -472,105 +783,190 @@ activos con el motor apagado pueden descargar la batería.
 </section>
 
 
+
+<!-- TRAYECTOS CORTOS -->
+
 <section>
 
-<h2>¿Los trayectos cortos dañan la batería?</h2>
+<h2>¿Los trayectos cortos reducen la duración de la batería?</h2>
 
 <p>
-Los trayectos cortos no significan necesariamente que una batería vaya a
+
+Los trayectos cortos no significan necesariamente que la batería vaya a
 fallar, pero pueden dificultar que recupere completamente la energía
 utilizada durante el arranque.
+
 </p>
 
 <p>
-Cuando este patrón de uso se repite con frecuencia, la batería puede
-trabajar durante largos periodos con un nivel de carga insuficiente. VARTA
-recomienda prestar especial atención a este factor y controlar la carga
-cuando el vehículo se utiliza principalmente para desplazamientos cortos.
+
+Este efecto puede ser especialmente importante cuando el vehículo se
+utiliza principalmente para desplazamientos muy cortos y frecuentes.
+
 </p>
 
 <p>
-Por este motivo, el uso que hacemos del coche es tan importante como la
-antigüedad de la batería.
+
+VARTA recomienda prestar especial atención al estado de la batería en
+vehículos que realizan habitualmente trayectos cortos.
+
 </p>
+
+<div class="info-box">
+
+<p>
+
+<strong>Consejo:</strong> si utilizas el coche principalmente para trayectos
+cortos, vigilar periódicamente el estado de carga puede ayudar a detectar
+problemas antes de que la batería deje de arrancar el vehículo.
+
+</p>
+
+</div>
 
 </section>
 
+
+
+<!-- TEMPERATURA -->
 
 <section>
 
-<h2>¿El calor o el frío afectan a la batería?</h2>
+<h2>¿El calor y el frío afectan a la batería?</h2>
 
 <p>
-Sí. Las temperaturas extremas pueden afectar al rendimiento y a la vida
-útil de una batería.
+
+Sí. Las temperaturas extremas pueden afectar tanto al funcionamiento como
+a la vida útil de una batería.
+
 </p>
 
 <p>
-El comportamiento frente a la temperatura no es exactamente el mismo en
-verano que en invierno. El calor puede acelerar determinados procesos de
-degradación, mientras que las bajas temperaturas aumentan las exigencias
-durante el arranque.
+
+Durante los periodos de frío, el motor puede necesitar más esfuerzo para
+arrancar, mientras que las temperaturas elevadas pueden acelerar determinados
+procesos de degradación de la batería.
+
 </p>
 
 <p>
-Por este motivo, una batería que ya está envejecida puede mostrar sus
-problemas con mayor facilidad cuando las condiciones ambientales son
-especialmente exigentes.
+
+Una batería que ya está envejecida puede mostrar sus problemas con mayor
+facilidad cuando las condiciones ambientales son especialmente exigentes.
+
 </p>
 
 </section>
 
+
+
+<!-- TIPOS -->
 
 <section>
 
 <h2>¿Dura lo mismo una batería convencional, EFB o AGM?</h2>
 
 <p>
+
 No necesariamente. Las diferentes tecnologías están diseñadas para
-diferentes necesidades y condiciones de funcionamiento.
+aplicaciones y condiciones de funcionamiento distintas.
+
+</p>
+
+
+<div class="table-wrapper">
+
+<table>
+
+<thead>
+
+<tr>
+
+<th>Tipo de batería</th>
+
+<th>Características generales</th>
+
+<th>Uso habitual</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>Convencional</td>
+
+<td>Tecnología de plomo-ácido ampliamente utilizada.</td>
+
+<td>Vehículos convencionales.</td>
+
+</tr>
+
+<tr>
+
+<td>EFB</td>
+
+<td>Diseñada para soportar más ciclos que determinadas baterías convencionales.</td>
+
+<td>Determinados vehículos con Start-Stop.</td>
+
+</tr>
+
+<tr>
+
+<td>AGM</td>
+
+<td>Diseñada para aplicaciones con mayores exigencias de ciclos y energía.</td>
+
+<td>Determinados vehículos con Start-Stop y mayores necesidades eléctricas.</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+<p>
+
+La tecnología utilizada debe ser compatible con las especificaciones del
+vehículo.
+
 </p>
 
 <p>
-Las baterías EFB están diseñadas para soportar un mayor número de ciclos
-que determinadas baterías convencionales, mientras que las AGM están
-orientadas a aplicaciones más exigentes. Exide y VARTA describen
-diferencias importantes entre estas tecnologías en cuanto a ciclabilidad y
-aplicaciones.
-</p>
 
-<div class="info-box">
-
-<p>
-<strong>Importante:</strong> no debemos elegir una batería únicamente por
-su posible duración. La tecnología utilizada debe ser compatible con las
-especificaciones del vehículo.
-</p>
-
-<p>
-
-Puedes conocer las diferencias entre las principales tecnologías en nuestra
-guía:
+Puedes conocer las diferencias con más detalle en:
 
 <a href="tipos-baterias.html" class="text-link">
+
 Tipos de baterías de coche →
+
 </a>
 
 </p>
 
-</div>
-
 </section>
 
+
+
+<!-- CÓMO SABER SI ESTÁ MAL -->
 
 <section>
 
 <h2>¿Cómo saber si una batería está llegando al final de su vida útil?</h2>
 
 <p>
-La antigüedad de la batería puede servir como referencia, pero los síntomas
-y el estado real de la batería son igualmente importantes.
+
+La antigüedad es solamente uno de los factores que debemos tener en cuenta.
+Los síntomas y el resultado de una prueba de batería son también
+importantes.
+
 </p>
+
 
 <div class="grid">
 
@@ -582,25 +978,14 @@ y el estado real de la batería son igualmente importantes.
 <h3>Dificultades para arrancar</h3>
 
 <p>
-El motor puede tardar más de lo habitual en arrancar o el motor de
-arranque puede parecer más lento.
+
+El motor de arranque puede girar más lentamente de lo habitual o el
+vehículo puede necesitar más tiempo para arrancar.
+
 </p>
 
 </div>
 
-
-<div class="card">
-
-<i class="fa-solid fa-lightbulb"></i>
-
-<h3>Variaciones en las luces</h3>
-
-<p>
-Las luces pueden mostrar una menor intensidad o determinadas variaciones,
-aunque este síntoma también puede tener otras causas.
-</p>
-
-</div>
 
 
 <div class="card">
@@ -610,22 +995,44 @@ aunque este síntoma también puede tener otras causas.
 <h3>Descargas frecuentes</h3>
 
 <p>
-Si la batería pierde carga repetidamente, conviene investigar la causa
-antes de sustituirla.
+
+Si la batería se descarga repetidamente, conviene investigar la causa y
+comprobar tanto la batería como el sistema de carga.
+
 </p>
 
 </div>
+
+
+
+<div class="card">
+
+<i class="fa-solid fa-lightbulb"></i>
+
+<h3>Problemas eléctricos</h3>
+
+<p>
+
+Determinadas variaciones en las luces u otros sistemas eléctricos pueden
+ser una señal de que es necesario revisar el sistema.
+
+</p>
+
+</div>
+
 
 
 <div class="card">
 
 <i class="fa-solid fa-triangle-exclamation"></i>
 
-<h3>Avisos en el vehículo</h3>
+<h3>Avisos del vehículo</h3>
 
 <p>
+
 Algunos vehículos pueden mostrar avisos relacionados con la batería o el
 sistema eléctrico.
+
 </p>
 
 </div>
@@ -635,11 +1042,13 @@ sistema eléctrico.
 
 <p>
 
-Para conocer con más detalle los síntomas que pueden indicar que ha llegado
-el momento de cambiarla, consulta nuestra guía:
+Si quieres conocer con más detalle cuándo puede ser necesario sustituirla,
+consulta:
 
 <a href="cuando-cambiar-bateria.html" class="text-link">
+
 ¿Cuándo cambiar la batería del coche? →
+
 </a>
 
 </p>
@@ -647,126 +1056,200 @@ el momento de cambiarla, consulta nuestra guía:
 </section>
 
 
+
+<!-- COMPROBACIÓN -->
+
+<section>
+
+<h2>¿Cómo comprobar cuánto le queda a una batería?</h2>
+
+<p>
+
+Una medición de voltaje puede proporcionar información sobre el estado de
+carga de una batería.
+
+</p>
+
+<p>
+
+Sin embargo, el voltaje por sí solo no permite conocer completamente la
+salud de la batería ni su capacidad real de arranque.
+
+</p>
+
+<p>
+
+Cuando es necesario conocer su estado con mayor precisión, puede realizarse
+una prueba específica de batería.
+
+</p>
+
+<p>
+
+Te explicamos diferentes métodos de comprobación en:
+
+<a href="como-comprobar-bateria-coche.html" class="text-link">
+
+Cómo comprobar la batería del coche →
+
+</a>
+
+</p>
+
+</section>
+
+
+
+<!-- CÓMO ALARGAR -->
+
 <section>
 
 <h2>¿Cómo alargar la vida útil de una batería de coche?</h2>
 
 <p>
+
 No existe ningún método que garantice una duración determinada, pero
-algunos hábitos pueden ayudar a mantener la batería en mejores
-condiciones.
+algunos hábitos pueden ayudar a mantener la batería en mejores condiciones.
+
 </p>
+
 
 <div class="card">
 
 <ul>
 
 <li>
+
 Evita dejar luces o sistemas eléctricos funcionando innecesariamente con
 el motor apagado.
+
 </li>
 
 <li>
-Si utilizas el vehículo principalmente para trayectos cortos, presta
-especial atención al estado de carga de la batería.
+
+Si realizas principalmente trayectos cortos, presta especial atención al
+estado de carga de la batería.
+
 </li>
 
 <li>
+
 Evita mantener el vehículo parado durante periodos prolongados sin
 comprobar el estado de la batería.
+
 </li>
 
 <li>
-Comprueba periódicamente la batería cuando tenga varios años de uso o
-cuando aparezcan síntomas de desgaste.
+
+Comprueba la batería periódicamente cuando tenga varios años de uso.
+
 </li>
 
 <li>
+
 Si la batería se descarga repetidamente, comprueba también el sistema de
 carga y posibles consumos eléctricos.
+
 </li>
 
 <li>
+
 Utiliza una batería cuya tecnología y características sean adecuadas para
 el vehículo.
+
 </li>
 
 </ul>
-
-<p>
-Estos principios coinciden con recomendaciones de fabricantes y
-especialistas como Bosch y VARTA, que aconsejan controlar la carga, evitar
-descargas innecesarias y prestar especial atención durante periodos
-prolongados de inactividad.
-</p>
 
 </div>
 
 </section>
 
 
+
+<!-- COCHE PARADO -->
+
 <section>
 
-<h2>¿Qué pasa si dejo el coche parado durante mucho tiempo?</h2>
+<h2>¿Cuánto dura una batería con el coche parado?</h2>
 
 <p>
-Un vehículo que permanece parado durante semanas o meses puede sufrir una
-descarga progresiva de la batería. Esto puede ocurrir incluso cuando el
-vehículo está apagado, debido a los pequeños consumos eléctricos que
-mantienen determinados sistemas activos.
+
+No existe un número de días que pueda aplicarse a todos los vehículos.
+
+Incluso con el motor apagado, determinados sistemas del vehículo pueden
+mantener pequeños consumos eléctricos.
+
 </p>
 
 <p>
-Si el vehículo va a permanecer parado durante un periodo prolongado,
-conviene tomar medidas para mantener la batería correctamente cargada y
-seguir las recomendaciones del fabricante.
+
+Por este motivo, una batería puede descargarse progresivamente si el coche
+permanece parado durante un periodo prolongado.
+
 </p>
 
 <p>
-VARTA recomienda prestar especial atención a la carga durante periodos de
-estacionamiento prolongado, mientras que Bosch también aconseja utilizar
-un cargador controlado electrónicamente cuando el vehículo permanece
-inactivo durante mucho tiempo.
+
+El riesgo depende, entre otros factores, del estado y antigüedad de la
+batería, de los consumos del vehículo y de las condiciones ambientales.
+
 </p>
 
 </section>
 
 
+
+<!-- EDAD -->
+
 <section>
 
-<h2>¿Cuándo debería revisar la batería?</h2>
+<h2>¿Debo cambiar la batería cuando cumple 3 o 5 años?</h2>
+
+<p>
+
+No necesariamente.
+
+</p>
+
+<p>
+
+Los 3–5 años son una referencia general de duración y no una fecha de
+caducidad. Una batería que continúa funcionando correctamente y supera
+ese periodo no tiene por qué sustituirse únicamente por su edad.
+
+</p>
+
+<p>
+
+Por el contrario, una batería puede necesitar ser sustituida antes si
+presenta síntomas de deterioro o una prueba indica que ha perdido
+capacidad.
+
+</p>
 
 <div class="warning-box">
 
 <p>
-<strong>Es recomendable prestar especial atención a la batería cuando:</strong>
+
+<strong>La mejor decisión no se basa únicamente en la edad.</strong>
+
 </p>
 
-<ul>
-
-<li>El vehículo tiene varios años de uso de la batería.</li>
-
-<li>El motor comienza a arrancar más lentamente.</li>
-
-<li>La batería se descarga con frecuencia.</li>
-
-<li>El vehículo se utiliza principalmente para trayectos cortos.</li>
-
-<li>El coche ha permanecido parado durante un periodo prolongado.</li>
-
-<li>Se producen problemas relacionados con el sistema eléctrico.</li>
-
-</ul>
-
 <p>
-Una revisión permite diferenciar entre una batería descargada, una batería
-envejecida y otros posibles problemas del sistema eléctrico.
+
+Hay que tener en cuenta el estado de la batería, los síntomas del vehículo
+y las condiciones de uso.
+
 </p>
 
 </div>
 
 </section>
 
+
+
+<!-- FAQ -->
 
 <section>
 
@@ -775,15 +1258,34 @@ envejecida y otros posibles problemas del sistema eléctrico.
 
 <div class="faq">
 
-<h3>¿Cuántos años dura una batería de coche?</h3>
+<h3>¿Cuánto dura una batería de coche?</h3>
 
 <p>
-Como referencia general, una batería de coche suele durar aproximadamente
-entre 3 y 5 años, aunque la duración real depende del vehículo, la batería,
-el uso y las condiciones de funcionamiento.
+
+Como referencia general, una batería puede durar aproximadamente entre 3 y
+5 años, aunque la duración real depende del vehículo, la batería, el uso y
+las condiciones ambientales.
+
 </p>
 
 </div>
+
+
+
+<div class="faq">
+
+<h3>¿Cuánto tiempo dura una batería de coche parada?</h3>
+
+<p>
+
+No existe un periodo fijo. Un vehículo parado puede seguir teniendo
+pequeños consumos eléctricos y la batería puede descargarse progresivamente,
+especialmente si ya está envejecida.
+
+</p>
+
+</div>
+
 
 
 <div class="faq">
@@ -791,25 +1293,31 @@ el uso y las condiciones de funcionamiento.
 <h3>¿Una batería puede durar más de 5 años?</h3>
 
 <p>
-Sí. La cifra de 3 a 5 años es una referencia general y no una fecha de
-caducidad. Algunas baterías pueden continuar funcionando durante más
-tiempo si las condiciones de uso son favorables.
+
+Sí. Los 3–5 años son una referencia general, no una fecha de caducidad.
+Una batería puede continuar funcionando correctamente durante más tiempo
+dependiendo de sus condiciones de uso.
+
 </p>
 
 </div>
+
 
 
 <div class="faq">
 
-<h3>¿Los trayectos cortos reducen la vida de la batería?</h3>
+<h3>¿Los trayectos cortos acortan la vida de la batería?</h3>
 
 <p>
-Pueden contribuir a reducir su estado de carga porque el tiempo de
-conducción puede no ser suficiente para recuperar completamente la energía
-utilizada durante el arranque.
+
+Pueden contribuir a mantener la batería con un nivel de carga insuficiente
+si no existe tiempo suficiente para recuperar la energía utilizada durante
+los arranques.
+
 </p>
 
 </div>
+
 
 
 <div class="faq">
@@ -817,12 +1325,14 @@ utilizada durante el arranque.
 <h3>¿Cuánto dura una batería AGM?</h3>
 
 <p>
-No existe una duración universal para todas las baterías AGM. Su vida útil
-depende del vehículo, las condiciones de uso, los ciclos a los que está
-sometida y el mantenimiento.
+
+No existe una duración universal para todas las baterías AGM. Depende del
+vehículo, el uso, las condiciones de funcionamiento y el mantenimiento.
+
 </p>
 
 </div>
+
 
 
 <div class="faq">
@@ -830,23 +1340,43 @@ sometida y el mantenimiento.
 <h3>¿Cuánto dura una batería EFB?</h3>
 
 <p>
-Tampoco existe una duración fija para todas las baterías EFB. Estas
-baterías están diseñadas para soportar condiciones de uso diferentes a las
-baterías convencionales, especialmente en determinadas aplicaciones
-Start-Stop.
+
+Tampoco existe una duración fija para todas las baterías EFB. Estas baterías
+están diseñadas para determinadas aplicaciones que pueden requerir una mayor
+resistencia a los ciclos de carga y descarga.
+
 </p>
 
 </div>
 
 
+
 <div class="faq">
 
-<h3>¿Una batería descargada está dañada?</h3>
+<h3>¿Es mejor una batería AGM porque dura más?</h3>
 
 <p>
-No necesariamente. Una batería puede descargarse por diferentes motivos.
-Si la descarga es repetida o profunda, conviene comprobar su estado y
-también revisar el sistema de carga y posibles consumos eléctricos.
+
+No necesariamente. La batería adecuada depende de las especificaciones del
+vehículo. No debe elegirse únicamente en función de una supuesta mayor
+duración.
+
+</p>
+
+</div>
+
+
+
+<div class="faq">
+
+<h3>¿Cuándo debería revisar una batería?</h3>
+
+<p>
+
+Conviene prestar especial atención cuando la batería tiene varios años,
+aparecen dificultades de arranque, se descarga con frecuencia o el vehículo
+permanece parado durante largos periodos.
+
 </p>
 
 </div>
@@ -855,40 +1385,63 @@ también revisar el sistema de carga y posibles consumos eléctricos.
 </section>
 
 
+
+<!-- FUENTES -->
+
 <section class="sources">
 
 <h2>Fuentes y referencias</h2>
 
 <p>
-Para elaborar esta guía hemos consultado información técnica y
-recomendaciones de fabricantes y especialistas del sector de la
-automoción.
+
+Para elaborar esta guía hemos consultado información técnica de fabricantes
+y especialistas del sector de la automoción.
+
 </p>
 
 <ul>
 
 <li>
+
 <a href="https://www.boschcarservice.com/es/es/servicios/sistema-electronico-profesional/bater%C3%ADa/" target="_blank" rel="noopener noreferrer">
+
 Bosch Car Service – Información sobre baterías de automóvil
+
 </a>
+
 </li>
 
+
 <li>
+
 <a href="https://www.boschcarservice.com/es/es/consejos-utiles/bater%C3%ADa/" target="_blank" rel="noopener noreferrer">
-Bosch Car Service – Consejos sobre la batería
+
+Bosch Car Service – Consejos sobre baterías
+
 </a>
+
 </li>
 
+
 <li>
+
 <a href="https://www.varta-automotive.com/es-es/knowledge/articles/article-details/la-bateria-adecuada-para-distancias-cortas" target="_blank" rel="noopener noreferrer">
+
 VARTA Automotive – Baterías y trayectos cortos
+
 </a>
+
 </li>
 
+
 <li>
+
 <a href="https://www.exidegroup.com/es/es/tecnologia/efb" target="_blank" rel="noopener noreferrer">
+
 Exide – Tecnología EFB
+
 </a>
+
 </li>
 
 </ul>
@@ -899,27 +1452,47 @@ Exide – Tecnología EFB
 </main>
 
 
+
+<!-- FOOTER -->
+
 <footer>
 
 <p>
+
 <strong>BateriasCoche.net</strong>
+
 </p>
 
 <p>
+
 Información y guías sobre baterías de coche.
+
 </p>
 
 <p>
+
 <a href="index.html">Inicio</a> ·
+
 <a href="tipos-baterias.html">Tipos de baterías</a> ·
-<a href="cuando-cambiar-bateria.html">Cuándo cambiar la batería</a>
+
+<a href="cuando-cambiar-bateria.html">Cuándo cambiar la batería</a> ·
+
+<a href="cuanto-dura-bateria-coche.html">Cuánto dura una batería</a> ·
+
+<a href="como-comprobar-bateria-coche.html">Cómo comprobar la batería</a>
+
 </p>
 
 <p>
+
 Contacto:
+
 <a href="mailto:admin@bateriascoche.net">
+
 admin@bateriascoche.net
+
 </a>
+
 </p>
 
 </footer>
