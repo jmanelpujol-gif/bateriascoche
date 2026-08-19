@@ -15,9 +15,9 @@
 
   <meta charset="UTF-8">
 
-  <title>¿Cuándo cambiar la batería del coche? Síntomas y duración | BateriasCoche.net</title>
+  <title>¿Cuándo cambiar la batería del coche? Síntomas y señales | BateriasCoche.net</title>
 
-  <meta name="description" content="Descubre cuándo cambiar la batería del coche, cuánto suele durar y cuáles son los principales síntomas de una batería en mal estado.">
+  <meta name="description" content="¿Cuándo hay que cambiar la batería del coche? Descubre los principales síntomas de una batería desgastada, cómo comprobarla y cuándo conviene sustituirla.">
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -27,29 +27,42 @@
 
   <link rel="icon" href="bateriascoche_favicon.png" type="image/png">
 
+
   <!-- Open Graph -->
-  <meta property="og:title" content="¿Cuándo cambiar la batería del coche? Síntomas y duración">
-  <meta property="og:description" content="Descubre cuándo cambiar la batería del coche, cuánto suele durar y cuáles son los principales síntomas de una batería en mal estado.">
+
+  <meta property="og:title" content="¿Cuándo cambiar la batería del coche? Síntomas y señales">
+
+  <meta property="og:description" content="Aprende a identificar los principales síntomas de una batería de coche desgastada y cuándo conviene revisarla o sustituirla.">
+
   <meta property="og:url" content="https://bateriascoche.net/cuando-cambiar-bateria.html">
+
   <meta property="og:type" content="article">
+
   <meta property="og:site_name" content="BateriasCoche.net">
 
+
   <!-- Fuentes -->
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
+
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
+
   <!-- Font Awesome -->
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
+
   <!-- Datos estructurados -->
+
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "¿Cuándo cambiar la batería del coche? Síntomas y duración",
-    "description": "Guía para saber cuándo cambiar la batería del coche, cuánto suele durar y cuáles son sus principales síntomas de desgaste.",
+    "headline": "¿Cuándo cambiar la batería del coche? Síntomas y señales",
+    "description": "Guía para saber cuándo revisar o cambiar la batería de un coche y reconocer los principales síntomas de desgaste.",
     "url": "https://bateriascoche.net/cuando-cambiar-bateria.html",
     "publisher": {
       "@type": "Organization",
@@ -59,11 +72,13 @@
   }
   </script>
 
+
 <style>
 
 *{
 box-sizing:border-box;
 }
+
 
 body{
 font-family:'Poppins',sans-serif;
@@ -73,22 +88,26 @@ color:#333;
 line-height:1.7;
 }
 
+
 nav{
 background:#1c1c1c;
 padding:14px 10px;
 text-align:center;
 }
 
+
 nav a{
 color:white;
-margin:0 14px;
+margin:0 12px;
 text-decoration:none;
 font-weight:500;
 }
 
+
 nav a:hover{
 color:#ffcc00;
 }
+
 
 .container{
 max-width:1050px;
@@ -96,165 +115,373 @@ margin:auto;
 padding:35px 25px;
 }
 
+
+/* HERO */
+
 .hero{
+
 background:
-linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)),
-url("https://images.unsplash.com/photo-1503376780353-7e6692767b70");
+linear-gradient(rgba(0,0,0,0.62),rgba(0,0,0,0.62)),
+url("https://images.unsplash.com/photo-1600661653561-629509216228");
+
 background-size:cover;
+
 background-position:center;
+
 color:white;
+
 padding:80px 25px;
+
 border-radius:10px;
+
 text-align:center;
+
 margin-bottom:35px;
+
 }
+
 
 .hero h1{
+
 font-size:40px;
+
 line-height:1.2;
+
 margin:0 0 15px;
+
 }
+
 
 .hero p{
+
 font-size:18px;
-max-width:750px;
+
+max-width:800px;
+
 margin:auto;
+
 }
+
+
+/* CONTENT */
 
 .intro{
+
 font-size:18px;
+
 margin-bottom:30px;
+
 }
+
 
 h2{
+
 font-size:30px;
+
 margin-top:45px;
+
 margin-bottom:15px;
+
 color:#222;
+
 line-height:1.3;
+
 }
+
 
 h3{
+
 color:#222;
+
 line-height:1.4;
+
 }
+
+
+/* CARDS */
 
 .card{
+
 background:white;
+
 padding:28px;
+
 margin:20px 0;
+
 border-radius:10px;
+
 box-shadow:0 3px 12px rgba(0,0,0,0.08);
+
 }
+
 
 .card i{
+
 font-size:28px;
+
 color:#ff9900;
+
 margin-bottom:10px;
+
 }
+
 
 .card h3{
+
 margin-top:8px;
+
 }
 
-.card ul{
-padding-left:25px;
-}
-
-.card li{
-margin-bottom:8px;
-}
 
 .grid{
+
 display:grid;
+
 grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
 gap:20px;
+
 margin-top:25px;
+
 }
+
 
 .grid .card{
+
 margin:0;
+
 }
 
-.warning-box{
-background:#fff8e6;
-padding:28px;
-border-radius:10px;
-margin-top:25px;
-border-left:5px solid #ff9900;
-}
+
+/* INFO BOX */
 
 .info-box{
+
 background:#eaf2ff;
-padding:28px;
+
+padding:30px;
+
 border-radius:10px;
+
 margin-top:25px;
+
 }
 
-.info-box strong,
-.warning-box strong{
-color:#222;
+
+.warning-box{
+
+background:#fff8e6;
+
+padding:30px;
+
+border-radius:10px;
+
+margin-top:25px;
+
+border-left:5px solid #ff9900;
+
 }
 
-.faq{
-background:white;
-padding:22px 25px;
-margin-top:15px;
-border-radius:8px;
-box-shadow:0 2px 8px rgba(0,0,0,0.06);
+
+.danger-box{
+
+background:#fff0f0;
+
+padding:30px;
+
+border-radius:10px;
+
+margin-top:25px;
+
+border-left:5px solid #d9534f;
+
 }
 
-.faq h3{
-margin-top:0;
-margin-bottom:8px;
+
+.success-box{
+
+background:#eef8ee;
+
+padding:30px;
+
+border-radius:10px;
+
+margin-top:25px;
+
+border-left:5px solid #5a9e5a;
+
 }
+
+
+/* LINKS */
 
 .text-link{
+
 color:#d98200;
+
 font-weight:600;
+
 text-decoration:none;
+
 }
+
 
 .text-link:hover{
+
 text-decoration:underline;
+
 }
+
+
+/* FAQ */
+
+.faq{
+
+background:white;
+
+padding:22px 25px;
+
+margin-top:15px;
+
+border-radius:8px;
+
+box-shadow:0 2px 8px rgba(0,0,0,0.06);
+
+}
+
+
+.faq h3{
+
+margin-top:0;
+
+margin-bottom:8px;
+
+}
+
+
+/* SOURCES */
+
+.sources{
+
+background:white;
+
+padding:28px;
+
+border-radius:10px;
+
+margin-top:40px;
+
+box-shadow:0 3px 12px rgba(0,0,0,0.06);
+
+}
+
+
+.sources ul{
+
+padding-left:25px;
+
+}
+
+
+.sources li{
+
+margin-bottom:10px;
+
+}
+
+
+.sources a{
+
+color:#d98200;
+
+text-decoration:none;
+
+}
+
+
+.sources a:hover{
+
+text-decoration:underline;
+
+}
+
+
+/* FOOTER */
 
 footer{
+
 text-align:center;
-padding:30px 20px;
+
+padding:35px 20px;
+
 color:#777;
+
 font-size:14px;
+
 }
 
+
 footer a{
+
 color:#777;
+
+text-decoration:none;
+
 }
+
+
+footer a:hover{
+
+text-decoration:underline;
+
+}
+
+
+/* MOBILE */
 
 @media (max-width:700px){
 
 .hero{
+
 padding:65px 20px;
+
 }
+
 
 .hero h1{
+
 font-size:32px;
+
 }
+
 
 .hero p{
+
 font-size:17px;
+
 }
+
 
 nav a{
+
 display:inline-block;
+
 margin:5px 8px;
+
 }
+
 
 .container{
+
 padding:25px 18px;
+
 }
 
+
 h2{
+
 font-size:25px;
+
 }
 
 }
@@ -263,8 +490,11 @@ font-size:25px;
 
 </head>
 
+
 <body>
 
+
+<!-- NAVEGACIÓN -->
 
 <nav>
 
@@ -274,270 +504,265 @@ font-size:25px;
 
 <a href="cuando-cambiar-bateria.html">Cuándo cambiarla</a>
 
+<a href="cuanto-dura-bateria-coche.html">Cuánto dura</a>
+
+<a href="como-comprobar-bateria-coche.html">Cómo comprobarla</a>
+
 </nav>
+
 
 
 <main class="container">
 
+
+<!-- HERO -->
 
 <section class="hero">
 
 <h1>¿Cuándo cambiar la batería del coche?</h1>
 
 <p>
-Aprende a identificar los principales síntomas de desgaste, cuánto puede
-durar una batería y cuándo conviene comprobarla o sustituirla.
+Descubre los principales síntomas de una batería desgastada, cuándo
+conviene revisarla y qué señales pueden indicar que ha llegado el momento
+de sustituirla.
 </p>
 
 </section>
 
 
+
+<!-- INTRO -->
+
 <section>
 
-<h2>¿Cuándo es necesario cambiar la batería del coche?</h2>
+<h2>¿Cuándo hay que cambiar la batería del coche?</h2>
 
 <p class="intro">
-La batería es un componente fundamental para el arranque y para el
-funcionamiento de diferentes sistemas eléctricos del vehículo. Con el
-tiempo, su capacidad puede disminuir y pueden aparecer síntomas que
-indiquen que está llegando al final de su vida útil.
+
+No existe una fecha exacta en la que todas las baterías de coche deban
+cambiarse. La duración depende del tipo de batería, el vehículo, el uso y
+las condiciones en las que funciona.
+
 </p>
 
 <p>
-No existe un momento exacto que sea válido para todos los vehículos. La
-duración de una batería depende del tipo de batería, del vehículo, del uso
-que se haga de él y de las condiciones en las que funciona.
+
+Como referencia general, Bosch Car Service indica una vida útil aproximada
+de <strong>3 a 5 años</strong>, aunque una batería puede durar menos o más
+tiempo dependiendo de las circunstancias.
+
 </p>
 
 <p>
-Por este motivo, además de tener en cuenta la antigüedad de la batería,
-conviene prestar atención a los síntomas que presenta el coche y comprobar
-su estado cuando existan dudas.
-</p>
 
-</section>
+Por eso, además de la antigüedad, es importante prestar atención a los
+síntomas que pueden indicar que la batería está perdiendo capacidad.
 
-
-<section>
-
-<h2>¿Cuánto dura una batería de coche?</h2>
-
-<p>
-La vida útil de una batería puede variar considerablemente. Como referencia
-general, muchas baterías pueden funcionar durante varios años, pero factores
-como el uso del vehículo, las temperaturas y el tipo de trayectos pueden
-hacer que su duración sea mayor o menor.
 </p>
 
 <div class="info-box">
 
 <p>
-<strong>Importante:</strong> la edad de una batería por sí sola no determina
-que tenga que ser sustituida. Una batería relativamente nueva también puede
-presentar problemas, mientras que otra con varios años puede continuar
-funcionando correctamente.
+
+<strong>La antigüedad por sí sola no significa que haya que cambiar la
+batería.</strong>
+
 </p>
-
-</div>
-
-<h3>Factores que pueden afectar a su duración</h3>
-
-<div class="grid">
-
-
-<div class="card">
-
-<i class="fa-solid fa-road"></i>
-
-<h3>Tipo de trayectos</h3>
 
 <p>
-Los trayectos muy cortos y frecuentes pueden afectar al equilibrio entre
-la energía utilizada durante el arranque y la energía que posteriormente
-recupera la batería.
+
+Una comprobación del estado de carga y de la capacidad de arranque permite
+tomar una decisión más fiable.
+
 </p>
-
-</div>
-
-
-<div class="card">
-
-<i class="fa-solid fa-temperature-high"></i>
-
-<h3>Temperatura</h3>
-
-<p>
-Las temperaturas extremas pueden afectar al rendimiento y a la vida útil
-de las baterías.
-</p>
-
-</div>
-
-
-<div class="card">
-
-<i class="fa-solid fa-car"></i>
-
-<h3>Uso del vehículo</h3>
-
-<p>
-El número de arranques, el tiempo que permanece el vehículo parado y el
-uso de los sistemas eléctricos pueden influir en el estado de la batería.
-</p>
-
-</div>
-
-
-<div class="card">
-
-<i class="fa-solid fa-bolt"></i>
-
-<h3>Sistema eléctrico</h3>
-
-<p>
-Problemas relacionados con el sistema de carga o con otros componentes
-eléctricos pueden provocar descargas o un funcionamiento incorrecto.
-</p>
-
-</div>
-
 
 </div>
 
 </section>
 
 
+
+<!-- SÍNTOMAS -->
+
 <section>
 
-<h2>Principales síntomas de una batería en mal estado</h2>
+<h2>7 señales de que la batería del coche puede estar fallando</h2>
 
 <p>
-Una batería que está perdiendo capacidad puede mostrar diferentes señales.
-Reconocerlas puede ayudar a detectar el problema antes de que el vehículo
-deje de arrancar.
+
+Estos síntomas no significan necesariamente que la batería sea la causa
+del problema, pero sí indican que conviene revisarla.
+
 </p>
+
+
+<div class="grid">
 
 
 <div class="card">
 
 <i class="fa-solid fa-key"></i>
 
-<h3>1. El coche tiene dificultades para arrancar</h3>
+<h3>1. El coche tarda en arrancar</h3>
 
 <p>
-Uno de los síntomas más conocidos es que el motor tarda más de lo habitual
-en arrancar o que el arranque parece más lento.
-</p>
 
-<p>
-Si esta situación se repite, puede ser recomendable comprobar el estado de
-la batería y del sistema de carga.
+Uno de los síntomas más habituales es que el motor de arranque gire más
+lentamente de lo normal o que el vehículo necesite más tiempo para ponerse
+en marcha.
+
 </p>
 
 </div>
+
+
+
+<div class="card">
+
+<i class="fa-solid fa-battery-quarter"></i>
+
+<h3>2. La batería se descarga con frecuencia</h3>
+
+<p>
+
+Si la batería pierde carga repetidamente, puede existir un problema con
+la propia batería, el sistema de carga o algún consumo eléctrico del
+vehículo.
+
+</p>
+
+</div>
+
 
 
 <div class="card">
 
 <i class="fa-solid fa-lightbulb"></i>
 
-<h3>2. Las luces tienen menos intensidad</h3>
+<h3>3. Las luces pierden intensidad</h3>
 
 <p>
-Una batería con poca carga o con problemas puede coincidir con una menor
-intensidad de determinados elementos eléctricos del vehículo.
-</p>
 
-<p>
-Sin embargo, este síntoma también puede tener otras causas, por lo que no
-debe utilizarse por sí solo para diagnosticar una batería defectuosa.
-</p>
+Las variaciones de intensidad de las luces pueden estar relacionadas con
+problemas eléctricos o de alimentación. No obstante, también pueden tener
+otras causas.
 
-</div>
-
-
-<div class="card">
-
-<i class="fa-solid fa-gauge-high"></i>
-
-<h3>3. El arranque es más lento de lo habitual</h3>
-
-<p>
-Si el motor de arranque gira más lentamente de lo normal, la batería puede
-ser una de las posibles causas.
-</p>
-
-<p>
-Antes de sustituirla conviene comprobar su estado y descartar otros
-problemas del sistema de arranque o eléctrico.
 </p>
 
 </div>
+
 
 
 <div class="card">
 
 <i class="fa-solid fa-triangle-exclamation"></i>
 
-<h3>4. Aparecen avisos relacionados con el sistema eléctrico</h3>
+<h3>4. Aparece el testigo de batería</h3>
 
 <p>
-Algunos vehículos pueden mostrar avisos en el cuadro de instrumentos cuando
-detectan determinados problemas relacionados con la alimentación eléctrica.
-</p>
 
-<p>
-El significado exacto depende del vehículo, por lo que siempre debe
-consultarse la información proporcionada por el fabricante.
+Si el testigo de batería permanece encendido con el motor en marcha,
+conviene revisar el sistema eléctrico y de carga.
+
 </p>
 
 </div>
+
 
 
 <div class="card">
 
-<i class="fa-solid fa-rotate"></i>
+<i class="fa-solid fa-power-off"></i>
 
-<h3>5. La batería se descarga con frecuencia</h3>
-
-<p>
-Si la batería pierde la carga repetidamente, puede existir un problema con
-la propia batería, con el sistema de carga o con algún consumo eléctrico
-del vehículo.
-</p>
+<h3>5. El sistema Start-Stop deja de funcionar</h3>
 
 <p>
-Una descarga frecuente no significa automáticamente que haya que cambiar
-la batería.
+
+En algunos vehículos, un sistema Start-Stop que deja de funcionar de
+forma persistente puede estar relacionado con una batería desgastada o
+con otros problemas del sistema.
+
 </p>
 
 </div>
 
 
+
+<div class="card">
+
+<i class="fa-solid fa-clock"></i>
+
+<h3>6. La batería tiene varios años</h3>
+
+<p>
+
+La edad de la batería no determina por sí sola que deba sustituirse, pero
+una batería con varios años merece una revisión especialmente si aparecen
+otros síntomas.
+
+</p>
+
+</div>
+
+
+
+<div class="card">
+
+<i class="fa-solid fa-eye"></i>
+
+<h3>7. Hay daños visibles</h3>
+
+<p>
+
+Corrosión importante, fugas, deformaciones o daños en la carcasa son motivos
+para dejar de utilizar la batería y solicitar una revisión profesional.
+
+</p>
+
+</div>
+
+
+</div>
+
 </section>
 
 
+
+<!-- ARRANQUE -->
+
 <section>
 
-<h2>¿Una batería descargada significa que hay que cambiarla?</h2>
+<h2>¿Qué pasa cuando una batería está perdiendo capacidad?</h2>
+
+<p>
+
+Una batería puede seguir siendo capaz de encender las luces o alimentar
+algunos sistemas eléctricos y, sin embargo, no disponer de suficiente
+capacidad para proporcionar la corriente necesaria para arrancar el motor.
+
+</p>
+
+<p>
+
+Por este motivo, que las luces funcionen no significa necesariamente que la
+batería esté en perfecto estado.
+
+</p>
 
 <div class="warning-box">
 
 <p>
-<strong>No necesariamente.</strong>
-Una batería descargada puede deberse a diferentes motivos y no todos
-significan que la batería haya llegado al final de su vida útil.
+
+<strong>Una batería puede parecer "normal" y aun así estar cerca del final
+de su vida útil.</strong>
+
 </p>
 
 <p>
-Por ejemplo, dejar determinados sistemas eléctricos funcionando con el
-motor apagado, utilizar poco el vehículo o tener un problema en el sistema
-de carga puede provocar una descarga.
-</p>
 
-<p>
-Por eso es importante diferenciar entre una batería simplemente descargada
-y una batería que ha perdido capacidad o presenta un defecto.
+Una prueba específica de batería permite conocer mejor su capacidad y
+estado de salud.
+
 </p>
 
 </div>
@@ -545,127 +770,147 @@ y una batería que ha perdido capacidad o presenta un defecto.
 </section>
 
 
+
+<!-- BATERÍA O ALTERNADOR -->
+
 <section>
 
-<h2>¿Cómo saber si la batería está realmente fallando?</h2>
+<h2>¿Es la batería o el alternador?</h2>
 
 <p>
-Los síntomas pueden orientar sobre el estado de la batería, pero no siempre
-permiten determinar por sí solos cuál es la causa del problema.
+
+Uno de los errores más habituales es asumir que cualquier problema de
+arranque significa que hay que cambiar la batería.
+
 </p>
 
 <p>
-Una comprobación de la batería y del sistema eléctrico puede proporcionar
-información más precisa sobre su estado.
+
+El sistema de carga del vehículo también puede ser responsable. Si una
+batería nueva se descarga rápidamente, por ejemplo, puede existir un
+problema en el alternador, en el sistema de gestión de energía o un consumo
+eléctrico anómalo.
+
 </p>
+
 
 <div class="grid">
 
 
 <div class="card">
 
-<i class="fa-solid fa-battery-half"></i>
+<i class="fa-solid fa-car-battery"></i>
 
-<h3>Comprobar el estado de la batería</h3>
+<h3>Posibles señales de batería</h3>
 
-<p>
-Una medición adecuada puede ayudar a conocer el estado de carga y detectar
-posibles problemas.
-</p>
+<ul>
+
+<li>Arranque lento.</li>
+
+<li>Descargas frecuentes.</li>
+
+<li>Batería con varios años.</li>
+
+<li>Resultado deficiente en una prueba de batería.</li>
+
+</ul>
 
 </div>
+
 
 
 <div class="card">
 
 <i class="fa-solid fa-bolt"></i>
 
-<h3>Comprobar el sistema de carga</h3>
-
-<p>
-Si una batería se descarga repetidamente, también es importante comprobar
-que el sistema encargado de cargarla funciona correctamente.
-</p>
-
-</div>
-
-
-<div class="card">
-
-<i class="fa-solid fa-magnifying-glass"></i>
-
-<h3>Buscar consumos eléctricos</h3>
-
-<p>
-Un consumo eléctrico anormal con el vehículo apagado puede provocar que
-una batería pierda carga aunque esta se encuentre en buen estado.
-</p>
-
-</div>
-
-
-</div>
-
-</section>
-
-
-<section>
-
-<h2>¿Debo cambiar la batería antes de que deje de funcionar?</h2>
-
-<p>
-No es necesario sustituir una batería únicamente porque haya alcanzado
-determinada edad si continúa funcionando correctamente. Sin embargo,
-cuando una batería presenta síntomas repetidos o las comprobaciones
-indican que su estado es deficiente, sustituirla de forma preventiva puede
-evitar quedarse sin capacidad de arranque en un momento inoportuno.
-</p>
-
-<p>
-La decisión debe tener en cuenta el estado real de la batería, el uso que
-se hace del vehículo y la información proporcionada por el fabricante.
-</p>
-
-</section>
-
-
-<section>
-
-<h2>¿Qué tipo de batería necesita mi coche?</h2>
-
-<p>
-Cuando llega el momento de sustituir una batería, no basta con buscar una
-que tenga unas dimensiones similares. Hay que comprobar diferentes
-características del vehículo.
-</p>
-
-<div class="info-box">
+<h3>Posibles señales del sistema de carga</h3>
 
 <ul>
 
-<li>Tipo de batería: convencional, EFB, AGM u otra tecnología.</li>
+<li>La batería nueva se descarga rápidamente.</li>
 
-<li>Capacidad de la batería, expresada habitualmente en Ah.</li>
+<li>El testigo de batería permanece encendido.</li>
 
-<li>Corriente de arranque.</li>
+<li>Se producen anomalías eléctricas con el motor en marcha.</li>
 
-<li>Dimensiones y sistema de fijación.</li>
-
-<li>Posición y configuración de los bornes.</li>
-
-<li>Compatibilidad con el sistema Start-Stop cuando corresponda.</li>
+<li>La batería no mantiene correctamente su carga.</li>
 
 </ul>
 
 </div>
 
+
+</div>
+
+<div class="info-box">
+
 <p>
 
-Puedes consultar nuestra guía para conocer mejor las diferentes
-tecnologías:
+Si tienes dudas sobre el origen del problema, puedes empezar por nuestra
+guía:
 
-<a href="tipos-baterias.html" class="text-link">
-Tipos de baterías de coche →
+<a href="como-comprobar-bateria-coche.html" class="text-link">
+
+Cómo comprobar la batería del coche →
+
+</a>
+
+</p>
+
+</div>
+
+</section>
+
+
+
+<!-- COMPROBAR -->
+
+<section>
+
+<h2>¿Cómo saber con seguridad si hay que cambiar la batería?</h2>
+
+<p>
+
+La mejor forma de tomar una decisión es combinar varios factores:
+
+</p>
+
+<ul>
+
+<li>Antigüedad de la batería.</li>
+
+<li>Síntomas que presenta el vehículo.</li>
+
+<li>Estado de carga.</li>
+
+<li>Resultado de una prueba de batería.</li>
+
+<li>Estado del sistema de carga.</li>
+
+</ul>
+
+<p>
+
+Puedes realizar algunas comprobaciones básicas en casa, como una inspección
+visual y una medición de voltaje con un multímetro.
+
+</p>
+
+<p>
+
+Sin embargo, el voltaje por sí solo no permite conocer completamente la
+salud de una batería.
+
+</p>
+
+<p>
+
+Te explicamos las comprobaciones con más detalle aquí:
+
+<a href="como-comprobar-bateria-coche.html" class="text-link">
+
+Cómo comprobar una batería de coche →
+
 </a>
 
 </p>
@@ -673,82 +918,315 @@ Tipos de baterías de coche →
 </section>
 
 
+
+<!-- CUÁNTO DURA -->
+
 <section>
 
-<h2>¿Qué hacer si el coche no arranca por la batería?</h2>
+<h2>¿Cuánto suele durar una batería de coche?</h2>
 
 <p>
-Si el vehículo no arranca y sospechas que la batería puede estar
-descargada, lo primero es intentar identificar correctamente la causa.
-Los síntomas de un problema de batería pueden coincidir con otros fallos
-del sistema de arranque o eléctrico.
+
+Como referencia general, la vida útil suele situarse aproximadamente entre
+3 y 5 años, aunque esta cifra puede variar considerablemente.
+
 </p>
 
 <p>
-Una vez solucionada la situación de emergencia, conviene comprobar por qué
-se produjo la descarga antes de asumir que la batería necesita ser
-sustituida.
+
+Los trayectos cortos frecuentes, las temperaturas extremas, los periodos
+prolongados de inactividad y determinados usos del vehículo pueden afectar
+a la duración.
+
+</p>
+
+<p>
+
+Por eso no recomendamos cambiar una batería únicamente porque haya
+alcanzado una determinada edad si no existen síntomas y las comprobaciones
+indican que sigue funcionando correctamente.
+
+</p>
+
+<p>
+
+Puedes consultar todos los factores que influyen en su duración:
+
+<a href="cuanto-dura-bateria-coche.html" class="text-link">
+
+¿Cuánto dura una batería de coche? →
+
+</a>
+
 </p>
 
 </section>
 
 
+
+<!-- START STOP -->
+
 <section>
 
-<h2>Preguntas frecuentes</h2>
+<h2>¿Cuándo cambiar una batería Start-Stop?</h2>
+
+<p>
+
+Los vehículos equipados con Start-Stop pueden someter la batería a un mayor
+número de ciclos de carga y descarga.
+
+</p>
+
+<p>
+
+Por este motivo utilizan tecnologías específicas como EFB o AGM dependiendo
+del vehículo.
+
+</p>
+
+<p>
+
+VARTA recomienda prestar especial atención cuando el sistema Start-Stop
+falla de forma constante, aparece un aviso relacionado con la batería o
+existen otros problemas eléctricos.
+
+</p>
+
+<div class="warning-box">
+
+<p>
+
+<strong>No sustituyas una batería Start-Stop por una batería convencional
+sin comprobar antes las especificaciones del vehículo.</strong>
+
+</p>
+
+<p>
+
+La tecnología de sustitución debe ser compatible con el sistema del
+vehículo.
+
+</p>
+
+</div>
+
+<p>
+
+Puedes conocer las diferencias entre las principales tecnologías en:
+
+<a href="tipos-baterias.html" class="text-link">
+
+Tipos de baterías de coche →
+
+</a>
+
+</p>
+
+</section>
+
+
+
+<!-- QUÉ PASA SI NO SE CAMBIA -->
+
+<section>
+
+<h2>¿Qué ocurre si no cambio una batería desgastada?</h2>
+
+<p>
+
+Una batería que está perdiendo capacidad puede terminar dejando de
+arrancar el vehículo, especialmente en condiciones exigentes.
+
+</p>
+
+<p>
+
+Además, si existe un problema en el sistema eléctrico o de carga, limitarse
+a cambiar la batería sin investigar la causa puede hacer que el problema
+vuelva a aparecer.
+
+</p>
+
+<div class="danger-box">
+
+<p>
+
+<strong>Si el vehículo presenta problemas repetidos de batería, no conviene
+limitarse a sustituirla sin realizar un diagnóstico.</strong>
+
+</p>
+
+<p>
+
+Es importante comprobar también el sistema de carga y posibles consumos
+eléctricos.
+
+</p>
+
+</div>
+
+</section>
+
+
+
+<!-- CONSEJOS -->
+
+<section>
+
+<h2>Consejos para evitar cambiar la batería antes de tiempo</h2>
+
+<div class="card">
+
+<ul>
+
+<li>
+
+Evita dejar luces, radio u otros sistemas eléctricos encendidos con el
+motor apagado.
+
+</li>
+
+<li>
+
+Si utilizas el coche principalmente para trayectos cortos, presta especial
+atención al estado de carga de la batería.
+
+</li>
+
+<li>
+
+Evita mantener el vehículo parado durante periodos prolongados sin
+comprobar la batería.
+
+</li>
+
+<li>
+
+Comprueba periódicamente el estado de la batería cuando tenga varios años.
+
+</li>
+
+<li>
+
+Si la batería se descarga repetidamente, investiga la causa.
+
+</li>
+
+<li>
+
+Utiliza siempre una batería compatible con las especificaciones del
+vehículo.
+
+</li>
+
+</ul>
+
+</div>
+
+</section>
+
+
+
+<!-- FAQ -->
+
+<section>
+
+<h2>Preguntas frecuentes sobre cuándo cambiar la batería</h2>
 
 
 <div class="faq">
 
-<h3>¿Cada cuánto tiempo hay que cambiar la batería del coche?</h3>
+<h3>¿Cuándo hay que cambiar la batería del coche?</h3>
 
 <p>
-No existe un intervalo universal. La duración depende del tipo de batería,
-del vehículo, del uso y de las condiciones de funcionamiento. Es más
-importante comprobar su estado y prestar atención a los síntomas que
-seguir únicamente un intervalo fijo.
+
+No existe una fecha exacta para todos los vehículos. Como referencia,
+muchas baterías duran aproximadamente entre 3 y 5 años, pero deben
+considerarse también los síntomas y el resultado de una comprobación.
+
 </p>
 
 </div>
 
 
+
 <div class="faq">
 
-<h3>¿Cuáles son los síntomas de una batería de coche en mal estado?</h3>
+<h3>¿Cómo saber si hay que cambiar la batería del coche?</h3>
 
 <p>
-Entre los síntomas que pueden aparecer se encuentran las dificultades de
-arranque, un arranque más lento, determinadas anomalías eléctricas o
-descargas frecuentes. Estos síntomas pueden tener también otras causas.
+
+Algunos indicios son dificultades para arrancar, descargas frecuentes,
+problemas eléctricos o un resultado deficiente en una prueba de batería.
+
 </p>
 
 </div>
 
 
+
 <div class="faq">
 
-<h3>¿Una batería que se descarga necesita ser sustituida?</h3>
+<h3>¿Una batería de coche puede durar más de 5 años?</h3>
 
 <p>
-No necesariamente. Una descarga puede producirse por diferentes motivos.
-Es conveniente comprobar la batería y el sistema eléctrico antes de
-decidir si es necesario sustituirla.
+
+Sí. Los 3–5 años son una referencia general y no una fecha de caducidad.
+La duración depende del vehículo, el uso y las condiciones de funcionamiento.
+
 </p>
 
 </div>
 
 
+
 <div class="faq">
 
-<h3>¿Una batería nueva puede descargarse?</h3>
+<h3>¿Si el coche arranca mal hay que cambiar la batería?</h3>
 
 <p>
-Sí. Una batería nueva también puede descargarse si existe un consumo
-eléctrico, un problema en el sistema de carga o si el vehículo permanece
-mucho tiempo parado.
+
+No necesariamente. Un arranque lento puede estar relacionado con una
+batería descargada o desgastada, pero también puede existir un problema en
+el sistema de carga u otro componente.
+
 </p>
 
 </div>
+
+
+
+<div class="faq">
+
+<h3>¿Cuándo cambiar una batería Start-Stop?</h3>
+
+<p>
+
+Cuando una prueba indique que está deteriorada o cuando existan síntomas
+compatibles con una batería desgastada. En vehículos Start-Stop es
+especialmente importante utilizar la tecnología adecuada para la
+sustitución.
+
+</p>
+
+</div>
+
+
+
+<div class="faq">
+
+<h3>¿Tengo que cambiar la batería aunque todavía arranque el coche?</h3>
+
+<p>
+
+No necesariamente. Si la batería sigue funcionando correctamente y una
+comprobación indica un buen estado, no hay motivo para sustituirla
+simplemente por su antigüedad.
+
+</p>
+
+</div>
+
 
 
 <div class="faq">
@@ -756,9 +1234,11 @@ mucho tiempo parado.
 <h3>¿Es mejor cambiar la batería antes de que falle?</h3>
 
 <p>
-No siempre es necesario. Sin embargo, si una batería presenta síntomas
-repetidos o las comprobaciones indican que su estado es deficiente,
-sustituirla preventivamente puede evitar problemas de arranque.
+
+Si una prueba indica que la batería está cerca del final de su vida útil,
+sustituirla preventivamente puede evitar quedarse sin capacidad de arranque.
+La decisión depende del estado real de la batería y del uso del vehículo.
+
 </p>
 
 </div>
@@ -767,29 +1247,125 @@ sustituirla preventivamente puede evitar problemas de arranque.
 </section>
 
 
+
+<!-- FUENTES -->
+
+<section class="sources">
+
+<h2>Fuentes y referencias</h2>
+
+<p>
+
+Para elaborar esta guía hemos consultado información técnica de fabricantes
+y especialistas del sector de la automoción.
+
+</p>
+
+<ul>
+
+<li>
+
+<a href="https://www.boschcarservice.com/es/es/servicios/sistema-electronico-profesional/bater%C3%ADa/" target="_blank" rel="noopener noreferrer">
+
+Bosch Car Service – Cambio y revisión de batería
+
+</a>
+
+</li>
+
+
+<li>
+
+<a href="https://www.boschcarservice.com/es/es/consejos-utiles/bater%C3%ADa/" target="_blank" rel="noopener noreferrer">
+
+Bosch Car Service – Consejos sobre baterías
+
+</a>
+
+</li>
+
+
+<li>
+
+<a href="https://www.varta-automotive.com/es-es/knowledge/articles/article-details/sustitucion-de-la-bateria" target="_blank" rel="noopener noreferrer">
+
+VARTA Automotive – Sustitución de la batería
+
+</a>
+
+</li>
+
+
+<li>
+
+<a href="https://www.varta-automotive.com/es-es/knowledge/technology/start-stop" target="_blank" rel="noopener noreferrer">
+
+VARTA Automotive – Tecnología Start-Stop
+
+</a>
+
+</li>
+
+
+<li>
+
+<a href="https://www.varta-automotive.com/es-es/knowledge/articles/article-details/evitar-el-fallo-de-la-bateria" target="_blank" rel="noopener noreferrer">
+
+VARTA Automotive – Prevención de fallos de batería
+
+</a>
+
+</li>
+
+</ul>
+
+</section>
+
+
 </main>
 
+
+
+<!-- FOOTER -->
 
 <footer>
 
 <p>
+
 <strong>BateriasCoche.net</strong>
+
 </p>
 
 <p>
+
 Información y guías sobre baterías de coche.
+
 </p>
 
 <p>
+
 <a href="index.html">Inicio</a> ·
-<a href="tipos-baterias.html">Tipos de baterías</a>
+
+<a href="tipos-baterias.html">Tipos de baterías</a> ·
+
+<a href="cuando-cambiar-bateria.html">Cuándo cambiar la batería</a> ·
+
+<a href="cuanto-dura-bateria-coche.html">Cuánto dura una batería</a> ·
+
+<a href="como-comprobar-bateria-coche.html">Cómo comprobar la batería</a>
+
 </p>
 
 <p>
+
 Contacto:
+
 <a href="mailto:admin@bateriascoche.net">
+
 admin@bateriascoche.net
+
 </a>
+
 </p>
 
 </footer>
