@@ -1,24 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <url>
-    <loc>https://bateriascoche.net/</loc>
-  </url>
-
-  <url>
-    <loc>https://bateriascoche.net/tipos-baterias.html</loc>
-  </url>
-
-  <url>
-    <loc>https://bateriascoche.net/cuando-cambiar-bateria.html</loc>
-  </url>
-
-  <url>
-  <loc>https://bateriascoche.net/cuanto-dura-bateria-coche.html</loc>
+<url>
+<loc>https://bateriascoche.net/</loc>
 </url>
 
 <url>
-  <loc>https://bateriascoche.net/como-comprobar-bateria-coche.html</loc>
+<loc>https://bateriascoche.net/tipos-baterias.html</loc>
 </url>
-  
+
+<url>
+<loc>https://bateriascoche.net/cuando-cambiar-bateria.html</loc>
+</url>
+
+<url>
+<loc>https://bateriascoche.net/cuanto-dura-bateria-coche.html</loc>
+</url>
+
+<url>
+<loc>https://bateriascoche.net/como-comprobar-bateria-coche.html</loc>
+</url>
+
+<url>
+<loc>https://bateriascoche.net/que-bateria-necesita-mi-coche.html</loc>
+</url>
+
 </urlset>
